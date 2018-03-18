@@ -134,9 +134,9 @@ set_property PACKAGE_PIN J2 [get_ports {J_MIC3_Pin3}]
 ##Sch name = JA4
 set_property PACKAGE_PIN G2 [get_ports {J_MIC3_Pin4}]					
 	set_property IOSTANDARD LVCMOS33 [get_ports {J_MIC3_Pin4}]
-#Sch name = JA7
+##Sch name = JA7
 #set_property PACKAGE_PIN H1 [get_ports {JA[4]}]					
-#	set_property IOSTANDARD LVCMOS33 [get_ports {JA[4]}]
+	#set_property IOSTANDARD LVCMOS33 [get_ports {JA[4]}]
 ##Sch name = JA8
 #set_property PACKAGE_PIN K2 [get_ports {JA[5]}]					
 	#set_property IOSTANDARD LVCMOS33 [get_ports {JA[5]}]
@@ -149,8 +149,8 @@ set_property PACKAGE_PIN G2 [get_ports {J_MIC3_Pin4}]
 
 
 
-##Pmod Header JB
-##Sch name = JB1
+#Pmod Header JB
+#Sch name = JB1
 set_property PACKAGE_PIN A14 [get_ports {J_DA2_Pin1}]					
 	set_property IOSTANDARD LVCMOS33 [get_ports {J_DA2_Pin1}]
 #Sch name = JB2

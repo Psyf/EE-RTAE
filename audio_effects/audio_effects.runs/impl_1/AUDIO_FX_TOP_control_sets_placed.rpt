@@ -1,8 +1,8 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date         : Fri Mar 16 16:18:46 2018
-| Host         : DESKTOP-RUPQMC3 running 64-bit major release  (build 9200)
+| Date         : Sun Mar 18 11:47:12 2018
+| Host         : DESKTOP-H9DK5VV running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file AUDIO_FX_TOP_control_sets_placed.rpt
 | Design       : AUDIO_FX_TOP
 | Device       : xc7a35t
@@ -22,8 +22,8 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Number of unique control sets                            |     6 |
-| Unused register locations in slices containing registers |    28 |
+| Number of unique control sets                            |    11 |
+| Unused register locations in slices containing registers |    48 |
 +----------------------------------------------------------+-------+
 
 
@@ -33,27 +33,32 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |               9 |            5 |
+| No           | No                    | No                     |              33 |           29 |
 | No           | No                    | Yes                    |               0 |            0 |
-| No           | Yes                   | No                     |              23 |            6 |
-| Yes          | No                    | No                     |               0 |            0 |
+| No           | Yes                   | No                     |              75 |           17 |
+| Yes          | No                    | No                     |              12 |            8 |
 | Yes          | No                    | Yes                    |               0 |            0 |
-| Yes          | Yes                   | No                     |               4 |            1 |
+| Yes          | Yes                   | No                     |               8 |            2 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
 3. Detailed Control Set Information
 -----------------------------------
 
-+---------------------+----------------------------+----------------------------------+------------------+----------------+
-|     Clock Signal    |        Enable Signal       |         Set/Reset Signal         | Slice Load Count | Bel Load Count |
-+---------------------+----------------------------+----------------------------------+------------------+----------------+
-|  nolabel_line34/clk |                            |                                  |                1 |              1 |
-|  u2/CLK             |                            |                                  |                1 |              2 |
-|  u2/CLK             | u2/shiftCounter[3]_i_2_n_0 | u2/shiftCounter[3]_i_1_n_0       |                1 |              4 |
-|  CLK_IBUF_BUFG      |                            |                                  |                3 |              6 |
-|  CLK_IBUF_BUFG      |                            | nolabel_line33/COUNT[11]_i_1_n_0 |                3 |             11 |
-|  CLK_IBUF_BUFG      |                            | nolabel_line33/J_MIC3_Pin1_OBUF  |                3 |             12 |
-+---------------------+----------------------------+----------------------------------+------------------+----------------+
++------------------------+----------------------------+-----------------------+------------------+----------------+
+|      Clock Signal      |        Enable Signal       |    Set/Reset Signal   | Slice Load Count | Bel Load Count |
++------------------------+----------------------------+-----------------------+------------------+----------------+
+|  c2/I7                 |                            |                       |                1 |              1 |
+|  u2/CLK                |                            |                       |                1 |              2 |
+|  u2/CLK                | u2/shiftCounter[3]_i_1_n_0 | u2/temp1[15]_i_1_n_0  |                1 |              4 |
+|  u2/CLK                | u2/temp2                   | u2/temp1[15]_i_1_n_0  |                1 |              4 |
+|  CLK_IBUF_BUFG         |                            |                       |                4 |              5 |
+|  CLK_IBUF_BUFG         |                            | c1/COUNT[11]_i_1_n_0  |                3 |             11 |
+|  u2/CLK                | u2/temp2                   |                       |                8 |             12 |
+| ~u1/J_MIC3_Pin4_OBUF   |                            |                       |               11 |             12 |
+|  CLK_IBUF_BUFG         |                            | J_MIC3_Pin1_OBUF_BUFG |                3 |             12 |
+|  J_MIC3_Pin1_OBUF_BUFG |                            |                       |               12 |             13 |
+|  J_MIC3_Pin1_OBUF_BUFG |                            | md1/i[16]_i_1_n_0     |               11 |             52 |
++------------------------+----------------------------+-----------------------+------------------+----------------+
 
 
