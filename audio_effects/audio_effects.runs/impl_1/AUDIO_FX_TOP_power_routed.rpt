@@ -1,8 +1,8 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date             : Sun Mar 18 11:47:41 2018
-| Host             : DESKTOP-H9DK5VV running 64-bit major release  (build 9200)
+| Date             : Sun Mar 18 13:04:47 2018
+| Host             : DESKTOP-RUPQMC3 running 64-bit major release  (build 9200)
 | Command          : report_power -file AUDIO_FX_TOP_power_routed.rpt -pb AUDIO_FX_TOP_power_summary_routed.pb -rpx AUDIO_FX_TOP_power_routed.rpx
 | Design           : AUDIO_FX_TOP
 | Device           : xc7a35tcpg236-1
@@ -30,8 +30,8 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 0.085 |
-| Dynamic (W)              | 0.011 |
+| Total On-Chip Power (W)  | 0.089 |
+| Dynamic (W)              | 0.015 |
 | Device Static (W)        | 0.074 |
 | Effective TJA (C/W)      | 5.0   |
 | Max Ambient (C)          | 84.6  |
@@ -50,17 +50,17 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        3 |       --- |             --- |
-| Slice Logic    |    <0.001 |      336 |       --- |             --- |
-|   LUT as Logic |    <0.001 |      165 |     20800 |            0.79 |
-|   Register     |    <0.001 |      128 |     41600 |            0.31 |
-|   CARRY4       |    <0.001 |       23 |      8150 |            0.28 |
-|   Others       |     0.000 |       12 |       --- |             --- |
+| Slice Logic    |    <0.001 |      344 |       --- |             --- |
+|   LUT as Logic |    <0.001 |      164 |     20800 |            0.79 |
+|   CARRY4       |    <0.001 |       30 |      8150 |            0.37 |
+|   Register     |    <0.001 |      127 |     41600 |            0.31 |
+|   Others       |     0.000 |       15 |       --- |             --- |
 |   BUFG         |     0.000 |        1 |        32 |            3.13 |
-| Signals        |    <0.001 |      395 |       --- |             --- |
+| Signals        |     0.005 |      382 |       --- |             --- |
 | Block RAM      |     0.000 |       48 |        50 |           96.00 |
-| I/O            |     0.009 |        8 |       106 |            7.55 |
+| I/O            |     0.009 |       10 |       106 |            9.43 |
 | Static Power   |     0.074 |          |           |                 |
-| Total          |     0.085 |          |           |                 |
+| Total          |     0.089 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -70,7 +70,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.013 |       0.002 |      0.011 |
+| Vccint    |       1.000 |     0.017 |       0.006 |      0.011 |
 | Vccaux    |       1.800 |     0.013 |       0.000 |      0.013 |
 | Vcco33    |       3.300 |     0.003 |       0.002 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -139,10 +139,10 @@ Table of Contents
 +--------------+-----------+
 | Name         | Power (W) |
 +--------------+-----------+
-| AUDIO_FX_TOP |     0.011 |
+| AUDIO_FX_TOP |     0.015 |
 |   c1         |    <0.001 |
 |   c2         |    <0.001 |
-|   md1        |    <0.001 |
+|   md1        |     0.004 |
 |   u1         |    <0.001 |
 |   u2         |    <0.001 |
 +--------------+-----------+

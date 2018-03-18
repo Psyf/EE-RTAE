@@ -2,100 +2,100 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Sun Mar 18 11:46:40 2018
-# Process ID: 16692
-# Current directory: C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.runs/impl_1
+# Start of session at: Sun Mar 18 13:03:34 2018
+# Process ID: 372
+# Current directory: C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.runs/impl_1
 # Command line: vivado.exe -log AUDIO_FX_TOP.vdi -applog -messageDb vivado.pb -mode batch -source AUDIO_FX_TOP.tcl -notrace
-# Log file: C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.vdi
-# Journal file: C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.runs/impl_1\vivado.jou
+# Log file: C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.vdi
+# Journal file: C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
 source AUDIO_FX_TOP.tcl -notrace
 Design is defaulting to srcset: sources_1
 Design is defaulting to constrset: constrs_1
-INFO: [Netlist 29-17] Analyzing 25 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 34 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2016.2
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc]
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[0]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:47]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:47]
+Parsing XDC File [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[0]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:47]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[0]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:48]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:48]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[0]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:48]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[1]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:49]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:49]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[1]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:49]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[1]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:50]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:50]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[1]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:50]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[2]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:51]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:51]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[2]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:51]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[2]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:52]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:52]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[2]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:52]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[3]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:53]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:53]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[3]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:53]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[3]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:54]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:54]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[3]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:54]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[4]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:55]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:55]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[4]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:55]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[4]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:56]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:56]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[4]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:56]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[5]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:57]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:57]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[5]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:57]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[5]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:58]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:58]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[5]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:58]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[6]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:59]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:59]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[6]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:59]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[6]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:60]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:60]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[6]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:60]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[7]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:61]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:61]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[7]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:61]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[7]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:62]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:62]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[7]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:62]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[8]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:63]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:63]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[8]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:63]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[8]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:64]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:64]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[8]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:64]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[9]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:65]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:65]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[9]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:65]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[9]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:66]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:66]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[9]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:66]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[10]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:67]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:67]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[10]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:67]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[10]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:68]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:68]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[10]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:68]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[11]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:69]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:69]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[11]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:69]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[11]'. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:70]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:70]
+WARNING: [Vivado 12-584] No ports matched 'MIC_in[11]'. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:70]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-Finished Parsing XDC File [C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc]
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-link_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 446.074 ; gain = 239.156
+link_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 446.152 ; gain = 239.453
 INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
 Command: opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
@@ -107,39 +107,39 @@ INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.092 . Memory (MB): peak = 450.668 ; gain = 4.594
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.084 . Memory (MB): peak = 451.383 ; gain = 5.230
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Starting Logic Optimization Task
-Implement Debug Cores | Checksum: 1930c941a
+Implement Debug Cores | Checksum: 181c88a8e
 
 Phase 1 Retarget
-INFO: [Opt 31-138] Pushed 5 inverter(s) to 24 load pin(s).
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 24 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
-Phase 1 Retarget | Checksum: 2349d2ced
+Phase 1 Retarget | Checksum: 1d77d9ccd
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.205 . Memory (MB): peak = 910.355 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.175 . Memory (MB): peak = 911.109 ; gain = 0.000
 
 Phase 2 Constant Propagation
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Opt 31-10] Eliminated 2 cells.
-Phase 2 Constant Propagation | Checksum: 1cd99d949
+Phase 2 Constant Propagation | Checksum: 23b990e5b
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.220 . Memory (MB): peak = 910.355 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.189 . Memory (MB): peak = 911.109 ; gain = 0.000
 
 Phase 3 Sweep
-INFO: [Opt 31-12] Eliminated 60 unconnected nets.
+INFO: [Opt 31-12] Eliminated 77 unconnected nets.
 INFO: [Opt 31-11] Eliminated 0 unconnected cells.
-Phase 3 Sweep | Checksum: 17a7a8a0e
+Phase 3 Sweep | Checksum: 208429d03
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.303 . Memory (MB): peak = 910.355 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.260 . Memory (MB): peak = 911.109 ; gain = 0.000
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 910.355 ; gain = 0.000
-Ending Logic Optimization Task | Checksum: 17a7a8a0e
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 911.109 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 208429d03
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.303 . Memory (MB): peak = 910.355 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.264 . Memory (MB): peak = 911.109 ; gain = 0.000
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
@@ -154,24 +154,26 @@ INFO: [Pwropt 34-10] Applying ODC optimizations ...
 Starting PowerOpt Patch Enables Task
 INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 48 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
 INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
-Number of BRAM Ports augmented: 48 newly gated: 0 Total Ports: 96
-Ending PowerOpt Patch Enables Task | Checksum: 1a90b367d
+Number of BRAM Ports augmented: 24 newly gated: 0 Total Ports: 96
+Number of Flops added for Enable Generation: 2
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 1049.344 ; gain = 0.000
-Ending Power Optimization Task | Checksum: 1a90b367d
+Ending PowerOpt Patch Enables Task | Checksum: 20c7a168d
 
-Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1049.344 ; gain = 138.988
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1049.570 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 20c7a168d
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1049.570 ; gain = 138.461
 INFO: [Common 17-83] Releasing license: Implementation
 26 Infos, 24 Warnings, 24 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 1049.344 ; gain = 603.270
+opt_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:26 . Memory (MB): peak = 1049.570 ; gain = 603.418
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1049.570 ; gain = 0.000
 INFO: [DRC 23-27] Running DRC with 2 threads
-INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP_drc_opted.rpt.
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP_drc_opted.rpt.
 INFO: [Chipscope 16-241] No debug cores found in the current design.
 Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
 or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
@@ -190,139 +192,139 @@ Starting Placer Task
 INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
 
 Phase 1 Placer Initialization
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1049.570 ; gain = 0.000
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-INFO: [Opt 31-138] Pushed 5 inverter(s) to 24 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1049.344 ; gain = 0.000
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
 
 Phase 1.1.1 ParallelPlaceIOClockAndInitTop
 
 Phase 1.1.1.1 Pre-Place Cells
-Phase 1.1.1.1 Pre-Place Cells | Checksum: b7031644
+Phase 1.1.1.1 Pre-Place Cells | Checksum: e71efdbc
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.228 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.189 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 1.1.1.2 Constructing HAPIClkRuleMgr
-Phase 1.1.1.2 Constructing HAPIClkRuleMgr | Checksum: b7031644
+Phase 1.1.1.2 Constructing HAPIClkRuleMgr | Checksum: e71efdbc
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.228 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.202 . Memory (MB): peak = 1049.570 ; gain = 0.000
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Phase 1.1.1.3 IO and Clk Clean Up
 
 Phase 1.1.1.3.1 Constructing HAPIClkRuleMgr
-Phase 1.1.1.3.1 Constructing HAPIClkRuleMgr | Checksum: b7031644
+Phase 1.1.1.3.1 Constructing HAPIClkRuleMgr | Checksum: e71efdbc
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1049.344 ; gain = 0.000
-Phase 1.1.1.3 IO and Clk Clean Up | Checksum: b7031644
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.961 . Memory (MB): peak = 1049.570 ; gain = 0.000
+Phase 1.1.1.3 IO and Clk Clean Up | Checksum: e71efdbc
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.967 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 1.1.1.4 Implementation Feasibility check On IDelay
-Phase 1.1.1.4 Implementation Feasibility check On IDelay | Checksum: b7031644
+Phase 1.1.1.4 Implementation Feasibility check On IDelay | Checksum: e71efdbc
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.969 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 1.1.1.5 Commit IO Placement
-Phase 1.1.1.5 Commit IO Placement | Checksum: 91e03f06
+Phase 1.1.1.5 Commit IO Placement | Checksum: 0e8670a3
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1049.344 ; gain = 0.000
-Phase 1.1.1 ParallelPlaceIOClockAndInitTop | Checksum: 91e03f06
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.970 . Memory (MB): peak = 1049.570 ; gain = 0.000
+Phase 1.1.1 ParallelPlaceIOClockAndInitTop | Checksum: 0e8670a3
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1049.344 ; gain = 0.000
-Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: dadc4fe9
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.970 . Memory (MB): peak = 1049.570 ; gain = 0.000
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 7a0f34ad
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.971 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 1.2 Build Placer Netlist Model
 
 Phase 1.2.1 Place Init Design
 
 Phase 1.2.1.1 Make Others
-Phase 1.2.1.1 Make Others | Checksum: 19507f132
+Phase 1.2.1.1 Make Others | Checksum: 12900c49b
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 1.2.1.2 Init Lut Pin Assignment
-Phase 1.2.1.2 Init Lut Pin Assignment | Checksum: 19507f132
+Phase 1.2.1.2 Init Lut Pin Assignment | Checksum: 12900c49b
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1049.344 ; gain = 0.000
-Phase 1.2.1 Place Init Design | Checksum: 19f555b4e
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1049.570 ; gain = 0.000
+Phase 1.2.1 Place Init Design | Checksum: dfdf4b62
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1049.344 ; gain = 0.000
-Phase 1.2 Build Placer Netlist Model | Checksum: 19f555b4e
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1049.570 ; gain = 0.000
+Phase 1.2 Build Placer Netlist Model | Checksum: dfdf4b62
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 1.3 Constrain Clocks/Macros
-Phase 1.3 Constrain Clocks/Macros | Checksum: 19f555b4e
+Phase 1.3 Constrain Clocks/Macros | Checksum: dfdf4b62
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1049.344 ; gain = 0.000
-Phase 1 Placer Initialization | Checksum: 19f555b4e
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1049.570 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: dfdf4b62
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 2 Global Placement
-Phase 2 Global Placement | Checksum: 19087fc7b
+Phase 2 Global Placement | Checksum: 1122705c2
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
-Phase 3.1 Commit Multi Column Macros | Checksum: 19087fc7b
+Phase 3.1 Commit Multi Column Macros | Checksum: 1122705c2
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 3.2 Commit Most Macros & LUTRAMs
-Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 2302c9710
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: f4e928e6
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 3.3 Area Swap Optimization
-Phase 3.3 Area Swap Optimization | Checksum: 2263c588c
+Phase 3.3 Area Swap Optimization | Checksum: 16fc1930a
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 3.4 updateClock Trees: DP
-Phase 3.4 updateClock Trees: DP | Checksum: 2263c588c
+Phase 3.4 updateClock Trees: DP | Checksum: 16fc1930a
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 3.5 Timing Path Optimizer
-Phase 3.5 Timing Path Optimizer | Checksum: 17d9f8af6
+Phase 3.5 Timing Path Optimizer | Checksum: 190b6d793
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 3.6 Fast Optimization
-Phase 3.6 Fast Optimization | Checksum: 17d9f8af6
+Phase 3.6 Fast Optimization | Checksum: 190b6d793
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 3.7 Small Shape Detail Placement
-Phase 3.7 Small Shape Detail Placement | Checksum: 70eef990
+Phase 3.7 Small Shape Detail Placement | Checksum: 18a0f939b
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 3.8 Re-assign LUT pins
-Phase 3.8 Re-assign LUT pins | Checksum: c10f3465
+Phase 3.8 Re-assign LUT pins | Checksum: a62ca771
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 3.9 Pipeline Register Optimization
-Phase 3.9 Pipeline Register Optimization | Checksum: c10f3465
+Phase 3.9 Pipeline Register Optimization | Checksum: a62ca771
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 3.10 Fast Optimization
-Phase 3.10 Fast Optimization | Checksum: c10f3465
+Phase 3.10 Fast Optimization | Checksum: a62ca771
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1049.344 ; gain = 0.000
-Phase 3 Detail Placement | Checksum: c10f3465
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1049.570 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: a62ca771
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 4 Post Placement Optimization and Clean-Up
 
@@ -330,49 +332,49 @@ Phase 4.1 Post Commit Optimization
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Phase 4.1.1 updateClock Trees: PCOPT
-Phase 4.1.1 updateClock Trees: PCOPT | Checksum: 1592812d8
+Phase 4.1.1 updateClock Trees: PCOPT | Checksum: 8ab73b62
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 4.1.2 Post Placement Optimization
-INFO: [Place 30-746] Post Placement Timing Summary WNS=6.130. For the most accurate timing information please run report_timing.
-Phase 4.1.2 Post Placement Optimization | Checksum: 13192cf38
+INFO: [Place 30-746] Post Placement Timing Summary WNS=6.259. For the most accurate timing information please run report_timing.
+Phase 4.1.2 Post Placement Optimization | Checksum: e19ec51d
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1049.344 ; gain = 0.000
-Phase 4.1 Post Commit Optimization | Checksum: 13192cf38
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1049.570 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: e19ec51d
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 4.2 Sweep Clock Roots: Post-Placement
-Phase 4.2 Sweep Clock Roots: Post-Placement | Checksum: 13192cf38
+Phase 4.2 Sweep Clock Roots: Post-Placement | Checksum: e19ec51d
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 4.3 Uram Pipeline Register Optimization
-Phase 4.3 Uram Pipeline Register Optimization | Checksum: 13192cf38
+Phase 4.3 Uram Pipeline Register Optimization | Checksum: e19ec51d
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 4.4 Post Placement Cleanup
-Phase 4.4 Post Placement Cleanup | Checksum: 13192cf38
+Phase 4.4 Post Placement Cleanup | Checksum: e19ec51d
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 4.5 Placer Reporting
-Phase 4.5 Placer Reporting | Checksum: 13192cf38
+Phase 4.5 Placer Reporting | Checksum: e19ec51d
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 4.6 Final Placement Cleanup
-Phase 4.6 Final Placement Cleanup | Checksum: c61baf3e
+Phase 4.6 Final Placement Cleanup | Checksum: dd47eb8e
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1049.344 ; gain = 0.000
-Phase 4 Post Placement Optimization and Clean-Up | Checksum: c61baf3e
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1049.570 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: dd47eb8e
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1049.344 ; gain = 0.000
-Ending Placer Task | Checksum: 884d0f92
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1049.570 ; gain = 0.000
+Ending Placer Task | Checksum: c7a47af7
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1049.570 ; gain = 0.000
 INFO: [Common 17-83] Releasing license: Implementation
 43 Infos, 24 Warnings, 24 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
@@ -380,10 +382,10 @@ Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.184 . Memory (MB): peak = 1049.344 ; gain = 0.000
-report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1049.344 ; gain = 0.000
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 1049.344 ; gain = 0.000
-report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.231 . Memory (MB): peak = 1049.570 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 1049.570 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1049.570 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1049.570 ; gain = 0.000
 Command: route_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
@@ -395,45 +397,45 @@ INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more in
 
 Starting Routing Task
 INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
-Checksum: PlaceDB: 70e00cde ConstDB: 0 ShapeSum: 176d02b4 RouteDB: 0
+Checksum: PlaceDB: 81f970a ConstDB: 0 ShapeSum: bf84e3ed RouteDB: 0
 
 Phase 1 Build RT Design
-Phase 1 Build RT Design | Checksum: 1c09d33fb
+Phase 1 Build RT Design | Checksum: 17ae75a0e
 
-Time (s): cpu = 00:00:26 ; elapsed = 00:00:24 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 2 Router Initialization
 
 Phase 2.1 Create Timer
-Phase 2.1 Create Timer | Checksum: 1c09d33fb
+Phase 2.1 Create Timer | Checksum: 17ae75a0e
 
-Time (s): cpu = 00:00:26 ; elapsed = 00:00:24 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 2.2 Fix Topology Constraints
-Phase 2.2 Fix Topology Constraints | Checksum: 1c09d33fb
+Phase 2.2 Fix Topology Constraints | Checksum: 17ae75a0e
 
-Time (s): cpu = 00:00:26 ; elapsed = 00:00:24 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 2.3 Pre Route Cleanup
-Phase 2.3 Pre Route Cleanup | Checksum: 1c09d33fb
+Phase 2.3 Pre Route Cleanup | Checksum: 17ae75a0e
 
-Time (s): cpu = 00:00:26 ; elapsed = 00:00:24 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1049.570 ; gain = 0.000
  Number of Nodes with overlaps = 0
 
 Phase 2.4 Update Timing
-Phase 2.4 Update Timing | Checksum: 1a98ab535
+Phase 2.4 Update Timing | Checksum: 1193941c4
 
-Time (s): cpu = 00:00:27 ; elapsed = 00:00:25 . Memory (MB): peak = 1049.344 ; gain = 0.000
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.953  | TNS=0.000  | WHS=-0.066 | THS=-0.232 |
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:27 . Memory (MB): peak = 1049.570 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=6.011  | TNS=0.000  | WHS=-0.066 | THS=-0.253 |
 
-Phase 2 Router Initialization | Checksum: 16b3187da
+Phase 2 Router Initialization | Checksum: 123f1f1f7
 
-Time (s): cpu = 00:00:27 ; elapsed = 00:00:25 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:27 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 3 Initial Routing
-Phase 3 Initial Routing | Checksum: ec7d3747
+Phase 3 Initial Routing | Checksum: 142f41496
 
-Time (s): cpu = 00:00:29 ; elapsed = 00:00:26 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:28 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 4 Rip-up And Reroute
 
@@ -442,62 +444,62 @@ Phase 4.1 Global Iteration 0
  Number of Nodes with overlaps = 0
 
 Phase 4.1.1 Update Timing
-Phase 4.1.1 Update Timing | Checksum: 11ec03194
+Phase 4.1.1 Update Timing | Checksum: 15d696c9a
 
-Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1049.344 ; gain = 0.000
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.924  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:29 . Memory (MB): peak = 1049.570 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.762  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
-Phase 4.1 Global Iteration 0 | Checksum: 1748be3ac
+Phase 4.1 Global Iteration 0 | Checksum: 18a0791d9
 
-Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1049.344 ; gain = 0.000
-Phase 4 Rip-up And Reroute | Checksum: 1748be3ac
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:29 . Memory (MB): peak = 1049.570 ; gain = 0.000
+Phase 4 Rip-up And Reroute | Checksum: 18a0791d9
 
-Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:29 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 5 Delay and Skew Optimization
 
 Phase 5.1 Delay CleanUp
 
 Phase 5.1.1 Update Timing
-Phase 5.1.1 Update Timing | Checksum: 192f9c73e
+Phase 5.1.1 Update Timing | Checksum: 20d7f04bd
 
-Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1049.344 ; gain = 0.000
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.932  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:29 . Memory (MB): peak = 1049.570 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.842  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
-Phase 5.1 Delay CleanUp | Checksum: 192f9c73e
+Phase 5.1 Delay CleanUp | Checksum: 20d7f04bd
 
-Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:29 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 5.2 Clock Skew Optimization
-Phase 5.2 Clock Skew Optimization | Checksum: 192f9c73e
+Phase 5.2 Clock Skew Optimization | Checksum: 20d7f04bd
 
-Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1049.344 ; gain = 0.000
-Phase 5 Delay and Skew Optimization | Checksum: 192f9c73e
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:29 . Memory (MB): peak = 1049.570 ; gain = 0.000
+Phase 5 Delay and Skew Optimization | Checksum: 20d7f04bd
 
-Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:29 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 6 Post Hold Fix
 
 Phase 6.1 Hold Fix Iter
 
 Phase 6.1.1 Update Timing
-Phase 6.1.1 Update Timing | Checksum: 1960f7987
+Phase 6.1.1 Update Timing | Checksum: 18dba543c
 
-Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1049.344 ; gain = 0.000
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.932  | TNS=0.000  | WHS=0.230  | THS=0.000  |
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:29 . Memory (MB): peak = 1049.570 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.842  | TNS=0.000  | WHS=0.230  | THS=0.000  |
 
-Phase 6.1 Hold Fix Iter | Checksum: 1960f7987
+Phase 6.1 Hold Fix Iter | Checksum: 18dba543c
 
-Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1049.344 ; gain = 0.000
-Phase 6 Post Hold Fix | Checksum: 1960f7987
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:29 . Memory (MB): peak = 1049.570 ; gain = 0.000
+Phase 6 Post Hold Fix | Checksum: 18dba543c
 
-Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:29 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 7 Route finalize
 
 Router Utilization Summary
-  Global Vertical Routing Utilization    = 0.560233 %
-  Global Horizontal Routing Utilization  = 0.367257 %
+  Global Vertical Routing Utilization    = 0.593478 %
+  Global Horizontal Routing Utilization  = 0.457444 %
   Routable Net Status*
   *Does not include unroutable nets such as driverless and loadless.
   Run report_route_status for detailed report.
@@ -506,45 +508,45 @@ Router Utilization Summary
   Number of Partially Routed Nets     = 0
   Number of Node Overlaps             = 0
 
-Phase 7 Route finalize | Checksum: 19203714f
+Phase 7 Route finalize | Checksum: 14c74a105
 
-Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
-Phase 8 Verifying routed nets | Checksum: 19203714f
+Phase 8 Verifying routed nets | Checksum: 14c74a105
 
-Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 9 Depositing Routes
-Phase 9 Depositing Routes | Checksum: 16a119ec6
+Phase 9 Depositing Routes | Checksum: 8ff98934
 
-Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Phase 10 Post Router Timing
-INFO: [Route 35-57] Estimated Timing Summary | WNS=5.932  | TNS=0.000  | WHS=0.230  | THS=0.000  |
+INFO: [Route 35-57] Estimated Timing Summary | WNS=5.842  | TNS=0.000  | WHS=0.230  | THS=0.000  |
 
 INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
-Phase 10 Post Router Timing | Checksum: 16a119ec6
+Phase 10 Post Router Timing | Checksum: 8ff98934
 
-Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 1049.570 ; gain = 0.000
 INFO: [Route 35-16] Router Completed Successfully
 
-Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 1049.570 ; gain = 0.000
 
 Routing Is Done.
 INFO: [Common 17-83] Releasing license: Implementation
 56 Infos, 24 Warnings, 24 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:27 . Memory (MB): peak = 1049.344 ; gain = 0.000
+route_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 1049.570 ; gain = 0.000
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.241 . Memory (MB): peak = 1049.344 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.211 . Memory (MB): peak = 1049.570 ; gain = 0.000
 INFO: [DRC 23-27] Running DRC with 2 threads
-INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP_drc_routed.rpt.
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP_drc_routed.rpt.
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
 INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
 Running Vector-less Activity Propagation...
@@ -575,7 +577,8 @@ Creating bitstream...
 Writing bitstream ./AUDIO_FX_TOP.bit...
 INFO: [Vivado 12-1842] Bitgen Completed Successfully.
 INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-186] 'C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Sun Mar 18 13:05:09 2018. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.2/doc/webtalk_introduction.html.
 INFO: [Common 17-83] Releasing license: Implementation
-write_bitstream: Time (s): cpu = 00:00:21 ; elapsed = 00:00:17 . Memory (MB): peak = 1380.531 ; gain = 329.965
+write_bitstream: Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1387.719 ; gain = 335.012
 INFO: [Vivado_Tcl 4-395] Unable to parse hwdef file AUDIO_FX_TOP.hwdef
-INFO: [Common 17-206] Exiting Vivado at Sun Mar 18 11:47:59 2018...
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 18 13:05:09 2018...

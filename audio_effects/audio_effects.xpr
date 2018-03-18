@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="14" Path="C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.xpr">
+<Project Version="7" Minor="14" Path="C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="973b187326964de684fc9e761b72d546"/>

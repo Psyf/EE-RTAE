@@ -2,11 +2,11 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Sun Mar 18 11:46:02 2018
-# Process ID: 14000
-# Current directory: C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.runs/synth_1
+# Start of session at: Sun Mar 18 13:02:56 2018
+# Process ID: 3448
+# Current directory: C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.runs/synth_1
 # Command line: vivado.exe -log AUDIO_FX_TOP.vds -mode batch -messageDb vivado.pb -notrace -source AUDIO_FX_TOP.tcl
-# Log file: C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.runs/synth_1/AUDIO_FX_TOP.vds
-# Journal file: C:/Users/Psyf/Google Drive/SyncBetweenSystems/LifeLongLearning/NUS_Auto/EE2020-EE2026-TEE2020/Project Materials and Submissions/audio_effects/audio_effects.runs/synth_1\vivado.jou
+# Log file: C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.runs/synth_1/AUDIO_FX_TOP.vds
+# Journal file: C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source AUDIO_FX_TOP.tcl -notrace

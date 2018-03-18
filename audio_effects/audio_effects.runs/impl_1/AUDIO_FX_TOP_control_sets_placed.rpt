@@ -1,8 +1,8 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date         : Sun Mar 18 11:47:12 2018
-| Host         : DESKTOP-H9DK5VV running 64-bit major release  (build 9200)
+| Date         : Sun Mar 18 13:04:15 2018
+| Host         : DESKTOP-RUPQMC3 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file AUDIO_FX_TOP_control_sets_placed.rpt
 | Design       : AUDIO_FX_TOP
 | Device       : xc7a35t
@@ -23,7 +23,7 @@ Table of Contents
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
 | Number of unique control sets                            |    11 |
-| Unused register locations in slices containing registers |    48 |
+| Unused register locations in slices containing registers |    49 |
 +----------------------------------------------------------+-------+
 
 
@@ -33,9 +33,9 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              33 |           29 |
+| No           | No                    | No                     |              39 |           34 |
 | No           | No                    | Yes                    |               0 |            0 |
-| No           | Yes                   | No                     |              75 |           17 |
+| No           | Yes                   | No                     |              68 |           17 |
 | Yes          | No                    | No                     |              12 |            8 |
 | Yes          | No                    | Yes                    |               0 |            0 |
 | Yes          | Yes                   | No                     |               8 |            2 |
@@ -57,8 +57,8 @@ Table of Contents
 |  u2/CLK                | u2/temp2                   |                       |                8 |             12 |
 | ~u1/J_MIC3_Pin4_OBUF   |                            |                       |               11 |             12 |
 |  CLK_IBUF_BUFG         |                            | J_MIC3_Pin1_OBUF_BUFG |                3 |             12 |
-|  J_MIC3_Pin1_OBUF_BUFG |                            |                       |               12 |             13 |
-|  J_MIC3_Pin1_OBUF_BUFG |                            | md1/i[16]_i_1_n_0     |               11 |             52 |
+|  J_MIC3_Pin1_OBUF_BUFG |                            |                       |               17 |             19 |
+|  J_MIC3_Pin1_OBUF_BUFG |                            | md1/i[1]_i_1_n_0      |               11 |             45 |
 +------------------------+----------------------------+-----------------------+------------------+----------------+
 
 
