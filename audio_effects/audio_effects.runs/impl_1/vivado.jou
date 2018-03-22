@@ -2,11 +2,11 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Sun Mar 18 13:03:34 2018
-# Process ID: 372
-# Current directory: C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.runs/impl_1
+# Start of session at: Thu Mar 22 23:06:15 2018
+# Process ID: 17100
+# Current directory: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1
 # Command line: vivado.exe -log AUDIO_FX_TOP.vdi -applog -messageDb vivado.pb -mode batch -source AUDIO_FX_TOP.tcl -notrace
-# Log file: C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.vdi
-# Journal file: C:/Users/Lenovo/Desktop/EE-RTAE/audio_effects/audio_effects.runs/impl_1\vivado.jou
+# Log file: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.vdi
+# Journal file: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
 source AUDIO_FX_TOP.tcl -notrace

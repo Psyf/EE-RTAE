@@ -13,7 +13,9 @@
 
 module AUDIO_FX_TOP(
     input CLK,            // 100MHz FPGA clock
-    input [1:0] varDelay, 
+    input [1:0] varDelay, //switches for mic_delay
+    input [9:3] sw,       //switches for melody mod; NOTE: Rename properly 
+    input [2:0] mode,     //switches fo selecting mode
     
     input  J_MIC3_Pin3,   // PmodMIC3 audio input data (serial)
     output J_MIC3_Pin1,   // PmodMIC3 chip select, 20kHz sampling clock
@@ -45,9 +47,19 @@ module AUDIO_FX_TOP(
     // Please create modules to implement different features and instantiate them here   
       wire [11:0] speaker_out;
       
+      //TODO: Create a mux. This produces different outputs. And depending on switch, 
+      //assigns related melody to speaker_out
+      //find way of instantiation of module inside if/else statements. 
+      //Is this going to affect audio fidelity?
+      
+      //Extra Feature #1 : Lights for switches 
+      //Extra Feature #2 : Self-destruct button
+      
+      //MIC _ DELAY ACTIVITY
       mic_delay md1 (clk_20k, varDelay, MIC_in, speaker_out);  //THIS IS FOR VARIABLE DELAY
-
-
+    
+      //VARYING FREQUENCY MODULE 
+      //melody (CLK, sw, speaker_out); 
 
     
       //THIS IS FOR NO DELAY: assign speaker_out = MIC_in; 
