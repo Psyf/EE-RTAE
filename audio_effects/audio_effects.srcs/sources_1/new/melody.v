@@ -33,10 +33,8 @@ module melody(
     end 
     
     always @ (posedge CLK) begin
-        counter <= (counter < limit) ? 0 : counter + 1; 
+        counter <= (counter > limit) ? 0 : counter + 1; 
         SPEAKER_OUT <= (counter == 0) ? ~SPEAKER_OUT : SPEAKER_OUT; 
-        //DEBUG: how to create a proper 12 bit pulse?
-        //read up on DA2CompRef.vhd
         //Also decide on improvement 
         
         case (keys)    
