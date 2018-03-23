@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Mar 23 16:56:26 2018
+# Process ID: 15860
+# Current directory: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/synth_1
+# Command line: vivado.exe -log AUDIO_FX_TOP.vds -mode batch -messageDb vivado.pb -notrace -source AUDIO_FX_TOP.tcl
+# Log file: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/synth_1/AUDIO_FX_TOP.vds
+# Journal file: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source AUDIO_FX_TOP.tcl -notrace
+Command: synth_design -top AUDIO_FX_TOP -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13376 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 272.906 ; gain = 65.719
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'AUDIO_FX_TOP' [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:14]
+INFO: [Synth 8-638] synthesizing module 'clk_twentyK' [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/clk_20k.v:23]
+INFO: [Synth 8-256] done synthesizing module 'clk_twentyK' (1#1) [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/clk_20k.v:23]
+INFO: [Synth 8-638] synthesizing module 'clk_fiftyM' [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/clk_fiftyM.v:23]
+INFO: [Synth 8-256] done synthesizing module 'clk_fiftyM' (2#1) [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/clk_fiftyM.v:23]
+INFO: [Synth 8-638] synthesizing module 'SPI' [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/SPI.v:20]
+INFO: [Synth 8-256] done synthesizing module 'SPI' (3#1) [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/SPI.v:20]
+WARNING: [Synth 8-567] referenced signal 'delay_disp' should be on the sensitivity list [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:63]
+WARNING: [Synth 8-567] referenced signal 'melody_disp' should be on the sensitivity list [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:63]
+INFO: [Synth 8-638] synthesizing module 'mic_delay' [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/mic_delay.v:23]
+INFO: [Synth 8-256] done synthesizing module 'mic_delay' (4#1) [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/mic_delay.v:23]
+WARNING: [Synth 8-689] width (8) of port connection 'seg' does not match port width (7) of module 'mic_delay' [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:69]
+WARNING: [Synth 8-387] label required on module instance [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:71]
+INFO: [Synth 8-638] synthesizing module 'melody' [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/melody.v:23]
+INFO: [Synth 8-256] done synthesizing module 'melody' (5#1) [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/melody.v:23]
+ERROR: [Synth 8-349] instance 'nolabel_line71' of module 'melody' passed 5 connections, but takes just 4 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:71]
+WARNING: [Synth 8-387] label required on module instance [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:73]
+INFO: [Synth 8-638] synthesizing module 'modeSelector' [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/modeSelector.v:23]
+WARNING: [Synth 8-567] referenced signal 'MIC_IN' should be on the sensitivity list [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/modeSelector.v:31]
+WARNING: [Synth 8-567] referenced signal 'mic_delay_out' should be on the sensitivity list [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/modeSelector.v:31]
+WARNING: [Synth 8-567] referenced signal 'melody_out' should be on the sensitivity list [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/modeSelector.v:31]
+ERROR: [Synth 8-285] failed synthesizing module 'modeSelector' [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/modeSelector.v:23]
+ERROR: [Synth 8-285] failed synthesizing module 'AUDIO_FX_TOP' [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:14]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 317.164 ; gain = 109.977
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+14 Infos, 8 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 23 16:56:34 2018...

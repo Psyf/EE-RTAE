@@ -15,9 +15,9 @@ set_property parent.project_path C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 read_verilog -library xil_defaultlib {
+  C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/melody.v
   C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/modeSelector.v
   C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/mic_delay.v
-  C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/melody.v
   C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/clk_fiftyM.v
   C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/clk_20k.v
   C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/SPI.v

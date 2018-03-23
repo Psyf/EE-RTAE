@@ -18,6 +18,9 @@ module AUDIO_FX_TOP(
     input [11:10] varPitch, 
     input [2:0] mode,     //switches for selecting mode
     output [15:0] led,    //usability enhancement (improvement 2)
+    input displayChange, 
+    output reg [6:0] seg, 
+    output reg [3:0] an, 
         
     input  J_MIC3_Pin3,   // PmodMIC3 audio input data (serial)
     output J_MIC3_Pin1,   // PmodMIC3 chip select, 20kHz sampling clock
@@ -49,23 +52,23 @@ module AUDIO_FX_TOP(
     // Please create modules to implement different features and instantiate them here   
       wire [11:0] speaker_out;
       wire [11:0] mic_delay_out; 
-      wire [11:0] melody_out; 
-      //TODO: Create a mux. This produces different outputs. And depending on switch, 
-      //assigns related melody to speaker_out
-      //find way of instantiation of module inside if/else statements. 
-      //Is this going to affect audio fidelity?
-      
+      wire [11:0] melody_out;     
+      wire [7:0] delay_disp; 
+      wire [7:0] melody_disp; 
       //Extra Feature #1 : Lights for switches 
       assign led [9:3] = sw; 
       assign led [2:0] = mode; 
       assign led [15:14] = varDelay; 
       
-      //Extra Feature #2 : Self-destruct button
+      always @ (displayChange) begin
+        if (displayChange == 0) begin an = 4'b1110; seg = delay_disp; end 
+        else begin an = 4'b0011; seg = melody_disp; end  
+      end
       
       //MIC _ DELAY ACTIVITY
-      mic_delay md1 (clk_20k, varDelay, MIC_in, mic_delay_out);  //THIS IS FOR VARIABLE DELAY
+      mic_delay md1 (clk_20k, varDelay, MIC_in, mic_delay_out, delay_disp);  //THIS IS FOR VARIABLE DELAY
       //VARYING FREQUENCY MODULE 
-      melody (CLK, sw, varPitch, melody_out); 
+      melody (CLK, sw, varPitch, melody_out, melody_disp); 
         
       modeSelector (MIC_in, mic_delay_out, melody_out, mode, speaker_out); 
 
