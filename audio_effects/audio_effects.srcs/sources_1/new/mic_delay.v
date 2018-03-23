@@ -30,7 +30,7 @@ module mic_delay(
     //NOTE: depending on switch, vary k
     reg [1:0] k;
     always @ (varDelay) begin 
-        if (varDelay == 2'b00) k=2'b00; //why do we have to hardcode the zero?
+        if (varDelay == 2'b00) k=2'b00; 
         else k=varDelay;
     end   
     

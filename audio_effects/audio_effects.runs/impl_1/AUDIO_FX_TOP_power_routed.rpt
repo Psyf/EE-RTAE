@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date             : Fri Mar 23 08:25:01 2018
+| Date             : Fri Mar 23 14:57:58 2018
 | Host             : DESKTOP-H9DK5VV running 64-bit major release  (build 9200)
 | Command          : report_power -file AUDIO_FX_TOP_power_routed.rpt -pb AUDIO_FX_TOP_power_summary_routed.pb -rpx AUDIO_FX_TOP_power_routed.rpx
 | Design           : AUDIO_FX_TOP
@@ -30,12 +30,12 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 0.087 |
-| Dynamic (W)              | 0.013 |
+| Total On-Chip Power (W)  | 0.096 |
+| Dynamic (W)              | 0.022 |
 | Device Static (W)        | 0.074 |
 | Effective TJA (C/W)      | 5.0   |
-| Max Ambient (C)          | 84.6  |
-| Junction Temperature (C) | 25.4  |
+| Max Ambient (C)          | 84.5  |
+| Junction Temperature (C) | 25.5  |
 | Confidence Level         | Low   |
 | Setting File             | ---   |
 | Simulation Activity File | ---   |
@@ -50,17 +50,17 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |     0.002 |        3 |       --- |             --- |
-| Slice Logic    |    <0.001 |      482 |       --- |             --- |
-|   LUT as Logic |    <0.001 |      234 |     20800 |            1.13 |
+| Slice Logic    |    <0.001 |      516 |       --- |             --- |
+|   LUT as Logic |    <0.001 |      261 |     20800 |            1.25 |
 |   CARRY4       |    <0.001 |       38 |      8150 |            0.47 |
-|   Register     |    <0.001 |      170 |     41600 |            0.41 |
+|   Register     |    <0.001 |      171 |     41600 |            0.41 |
 |   Others       |     0.000 |       18 |       --- |             --- |
 |   BUFG         |     0.000 |        1 |        32 |            3.13 |
-| Signals        |     0.003 |      481 |       --- |             --- |
+| Signals        |     0.003 |      513 |       --- |             --- |
 | Block RAM      |     0.000 |       48 |        50 |           96.00 |
-| I/O            |     0.007 |       20 |       106 |           18.87 |
+| I/O            |     0.016 |       34 |       106 |           32.08 |
 | Static Power   |     0.074 |          |           |                 |
-| Total          |     0.087 |          |           |                 |
+| Total          |     0.096 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -71,8 +71,8 @@ Table of Contents
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
 | Vccint    |       1.000 |     0.017 |       0.006 |      0.011 |
-| Vccaux    |       1.800 |     0.013 |       0.000 |      0.013 |
-| Vcco33    |       3.300 |     0.003 |       0.002 |      0.001 |
+| Vccaux    |       1.800 |     0.013 |       0.001 |      0.013 |
+| Vcco33    |       3.300 |     0.006 |       0.005 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
@@ -139,12 +139,12 @@ Table of Contents
 +------------------+-----------+
 | Name             | Power (W) |
 +------------------+-----------+
-| AUDIO_FX_TOP     |     0.013 |
+| AUDIO_FX_TOP     |     0.022 |
 |   c1             |    <0.001 |
 |   c2             |    <0.001 |
 |   md1            |     0.003 |
-|   nolabel_line62 |     0.001 |
-|   nolabel_line64 |    <0.001 |
+|   nolabel_line68 |     0.001 |
+|   nolabel_line70 |    <0.001 |
 |   u1             |    <0.001 |
 |   u2             |    <0.001 |
 +------------------+-----------+

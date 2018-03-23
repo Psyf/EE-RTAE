@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date         : Fri Mar 23 08:24:33 2018
+| Date         : Fri Mar 23 14:57:29 2018
 | Host         : DESKTOP-H9DK5VV running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file AUDIO_FX_TOP_control_sets_placed.rpt
 | Design       : AUDIO_FX_TOP
@@ -22,8 +22,8 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Number of unique control sets                            |    15 |
-| Unused register locations in slices containing registers |    70 |
+| Number of unique control sets                            |    14 |
+| Unused register locations in slices containing registers |    61 |
 +----------------------------------------------------------+-------+
 
 
@@ -33,10 +33,10 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              45 |           34 |
+| No           | No                    | No                     |              55 |           43 |
 | No           | No                    | Yes                    |               0 |            0 |
-| No           | Yes                   | No                     |              93 |           28 |
-| Yes          | No                    | No                     |              24 |           13 |
+| No           | Yes                   | No                     |              84 |           25 |
+| Yes          | No                    | No                     |              24 |           10 |
 | Yes          | No                    | Yes                    |               0 |            0 |
 | Yes          | Yes                   | No                     |               8 |            2 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
@@ -48,20 +48,19 @@ Table of Contents
 +-------------------------------------+-----------------------------+--------------------------------+------------------+----------------+
 |             Clock Signal            |        Enable Signal        |        Set/Reset Signal        | Slice Load Count | Bel Load Count |
 +-------------------------------------+-----------------------------+--------------------------------+------------------+----------------+
-|  c2/I9                              |                             |                                |                1 |              1 |
+|  c2/I10                             |                             |                                |                1 |              1 |
 |  u2/CLK                             |                             |                                |                1 |              2 |
 |  u2/CLK                             | u2/shiftCounter[3]_i_1_n_0  | u2/temp1[15]_i_1_n_0           |                1 |              4 |
 |  u2/CLK                             | u2/temp2                    | u2/temp1[15]_i_1_n_0           |                1 |              4 |
-|  CLK_IBUF_BUFG                      |                             | sw_IBUF[3]                     |                5 |              9 |
 |  CLK_IBUF_BUFG                      |                             | c1/COUNT[11]_i_1_n_0           |                3 |             11 |
-|  u2/CLK                             | u2/temp2                    |                                |                4 |             12 |
+|  u2/CLK                             | u2/temp2                    |                                |                3 |             12 |
 | ~u1/J_MIC3_Pin4_OBUF                |                             |                                |               10 |             12 |
-|  nolabel_line64/nolabel_line64/_n_0 |                             | nolabel_line64/speaker_out_n_0 |                4 |             12 |
+|  nolabel_line70/nolabel_line70/_n_0 |                             | nolabel_line70/speaker_out_n_0 |                6 |             12 |
 |  CLK_IBUF_BUFG                      |                             | J_MIC3_Pin1_OBUF_BUFG          |                3 |             12 |
-|  CLK_IBUF_BUFG                      | nolabel_line62/SPEAKER_OUT0 |                                |                9 |             12 |
-|  CLK_IBUF_BUFG                      |                             |                                |                7 |             13 |
-|  J_MIC3_Pin1_OBUF_BUFG              |                             |                                |               15 |             17 |
-|  CLK_IBUF_BUFG                      |                             | nolabel_line62/clear           |                5 |             18 |
+|  CLK_IBUF_BUFG                      | nolabel_line68/SPEAKER_OUT0 |                                |                7 |             12 |
+|  J_MIC3_Pin1_OBUF_BUFG              |                             |                                |               16 |             17 |
+|  CLK_IBUF_BUFG                      |                             | nolabel_line68/clear           |                5 |             18 |
+|  CLK_IBUF_BUFG                      |                             |                                |               15 |             23 |
 |  J_MIC3_Pin1_OBUF_BUFG              |                             | md1/i[1]_i_1_n_0               |                8 |             31 |
 +-------------------------------------+-----------------------------+--------------------------------+------------------+----------------+
 

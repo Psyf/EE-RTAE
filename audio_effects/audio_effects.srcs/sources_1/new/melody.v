@@ -23,6 +23,7 @@
 module melody(
     input CLK,
     input [7:1] keys,
+    input [1:0] varPitch, 
     output reg [11:0] SPEAKER_OUT 
 );
     reg [17:0] counter = 18'b0; 
@@ -38,13 +39,13 @@ module melody(
         //Also decide on improvement 
         
         case (keys)    
-            1 : limit <= 191112;
-            2 : limit <= 170262; 
-            4 : limit <= 151686; 
-            8 : limit <= 143173; 
-            16 : limit <= 127551; 
-            32 : limit <= 113636; 
-            64 : limit <= 101238; 
+            1 : limit <= 191112/(1+varPitch);
+            2 : limit <= 170262/(1+varPitch);
+            4 : limit <= 151686/(1+varPitch);
+            8 : limit <= 143173/(1+varPitch);
+            16 : limit <= 127551/(1+varPitch); 
+            32 : limit <= 113636/(1+varPitch);
+            64 : limit <= 101238/(1+varPitch);
             default : limit <= 0;   
         endcase
     end 

@@ -14,9 +14,9 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 13256 
+INFO: Helper process launched with PID 15572 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 272.633 ; gain = 65.629
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 273.285 ; gain = 65.613
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'AUDIO_FX_TOP' [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:14]
 INFO: [Synth 8-638] synthesizing module 'clk_twentyK' [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/clk_20k.v:23]
@@ -27,10 +27,10 @@ INFO: [Synth 8-638] synthesizing module 'SPI' [C:/Users/Psyf/Desktop/git/EE-RTAE
 INFO: [Synth 8-256] done synthesizing module 'SPI' (3#1) [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/SPI.v:20]
 INFO: [Synth 8-638] synthesizing module 'mic_delay' [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/mic_delay.v:23]
 INFO: [Synth 8-256] done synthesizing module 'mic_delay' (4#1) [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/mic_delay.v:23]
-WARNING: [Synth 8-387] label required on module instance [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:62]
+WARNING: [Synth 8-387] label required on module instance [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:68]
 INFO: [Synth 8-638] synthesizing module 'melody' [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/melody.v:23]
 INFO: [Synth 8-256] done synthesizing module 'melody' (5#1) [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/melody.v:23]
-WARNING: [Synth 8-387] label required on module instance [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:64]
+WARNING: [Synth 8-387] label required on module instance [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:70]
 INFO: [Synth 8-638] synthesizing module 'modeSelector' [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/modeSelector.v:23]
 WARNING: [Synth 8-567] referenced signal 'MIC_IN' should be on the sensitivity list [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/modeSelector.v:31]
 WARNING: [Synth 8-567] referenced signal 'mic_delay_out' should be on the sensitivity list [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/modeSelector.v:31]
@@ -39,8 +39,12 @@ INFO: [Synth 8-256] done synthesizing module 'modeSelector' (6#1) [C:/Users/Psyf
 INFO: [Synth 8-638] synthesizing module 'DA2RefComp' [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/imports/audio_effects.srcs/DA2CompRef.vhd:59]
 INFO: [Synth 8-256] done synthesizing module 'DA2RefComp' (7#1) [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/imports/audio_effects.srcs/DA2CompRef.vhd:59]
 INFO: [Synth 8-256] done synthesizing module 'AUDIO_FX_TOP' (8#1) [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:14]
+WARNING: [Synth 8-3331] design AUDIO_FX_TOP has unconnected port led[13]
+WARNING: [Synth 8-3331] design AUDIO_FX_TOP has unconnected port led[12]
+WARNING: [Synth 8-3331] design AUDIO_FX_TOP has unconnected port led[11]
+WARNING: [Synth 8-3331] design AUDIO_FX_TOP has unconnected port led[10]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 317.887 ; gain = 110.883
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 317.621 ; gain = 109.949
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -49,20 +53,20 @@ Report Check Netlist:
 +------+------------------+-------+---------+-------+------------------+
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[11] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:71]
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[10] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:71]
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[9] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:71]
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[8] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:71]
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[7] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:71]
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[6] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:71]
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[5] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:71]
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[4] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:71]
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[3] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:71]
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[2] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:71]
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[1] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:71]
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[0] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:71]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[11] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:77]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[10] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:77]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[9] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:77]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[8] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:77]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[7] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:77]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[6] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:77]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[5] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:77]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[4] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:77]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[3] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:77]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[2] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:77]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[1] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:77]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[0] to constant 0 [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:77]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 317.887 ; gain = 110.883
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 317.621 ; gain = 109.949
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -70,78 +74,6 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 Processing XDC Constraints
 Initializing timing engine
 Parsing XDC File [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc]
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[0]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:47]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:47]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[0]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:48]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:48]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[1]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:49]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:49]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[1]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:50]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:50]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[2]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:51]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:51]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[2]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:52]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:52]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[3]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:53]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:53]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[3]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:54]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:54]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[4]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:55]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:55]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[4]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:56]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:56]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[5]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:57]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:57]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[5]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:58]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:58]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[6]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:59]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:59]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[6]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:60]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:60]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[7]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:61]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:61]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[7]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:62]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:62]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[8]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:63]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:63]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[8]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:64]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:64]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[9]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:65]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:65]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[9]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:66]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:66]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[10]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:67]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:67]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[10]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:68]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:68]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[11]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:69]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:69]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[11]'. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:70]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:70]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
 Finished Parsing XDC File [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/AUDIO_FX_TOP_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/AUDIO_FX_TOP_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
@@ -150,26 +82,25 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 600.766 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 601.293 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 600.766 ; gain = 393.762
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 601.293 ; gain = 393.621
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 600.766 ; gain = 393.762
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 601.293 ; gain = 393.621
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 600.766 ; gain = 393.762
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 601.293 ; gain = 393.621
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "PULSE0" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "SPEAKER_OUT0" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "limit" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5544] ROM "speaker_out" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
 INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'DA2RefComp'
 INFO: [Synth 8-5544] ROM "DONE" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
@@ -185,7 +116,7 @@ WARNING: [Synth 8-327] inferring latch for variable 'speaker_out_reg' [C:/Users/
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'DA2RefComp'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 600.766 ; gain = 393.762
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 601.293 ; gain = 393.621
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -201,6 +132,7 @@ Detailed RTL Component Info :
 	   2 Input     17 Bit       Adders := 1     
 	   2 Input     12 Bit       Adders := 1     
 	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
 +---Registers : 
 	               18 Bit    Registers := 1     
 	               17 Bit    Registers := 1     
@@ -211,12 +143,10 @@ Detailed RTL Component Info :
 +---RAMs : 
 	            1171K Bit         RAMs := 1     
 +---Muxes : 
-	   8 Input     18 Bit        Muxes := 1     
 	   2 Input     17 Bit        Muxes := 1     
 	   2 Input     16 Bit        Muxes := 2     
 	   2 Input     12 Bit        Muxes := 2     
 	   3 Input     12 Bit        Muxes := 1     
-	   8 Input      3 Bit        Muxes := 1     
 	   5 Input      2 Bit        Muxes := 1     
 	   2 Input      1 Bit        Muxes := 6     
 	   4 Input      1 Bit        Muxes := 2     
@@ -260,12 +190,12 @@ Detailed RTL Component Info :
 	   2 Input     17 Bit        Muxes := 1     
 Module melody 
 Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
 +---Registers : 
 	               18 Bit    Registers := 1     
 	               12 Bit    Registers := 1     
 +---Muxes : 
-	   8 Input     18 Bit        Muxes := 1     
-	   8 Input      3 Bit        Muxes := 1     
 	   2 Input      1 Bit        Muxes := 1     
 Module modeSelector 
 Detailed RTL Component Info : 
@@ -299,18 +229,21 @@ BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 600.766 ; gain = 393.762
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 601.293 ; gain = 393.621
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "SPEAKER_OUT0" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-4471] merging register 'md1/i_reg[16:0]' into 'md1/i_reg[16:0]' [C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.srcs/sources_1/new/mic_delay.v:41]
 INFO: [Synth 8-5546] ROM "c1/PULSE0" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "nolabel_line62/limit" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "nolabel_line62/SPEAKER_OUT0" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design AUDIO_FX_TOP has unconnected port led[13]
+WARNING: [Synth 8-3331] design AUDIO_FX_TOP has unconnected port led[12]
+WARNING: [Synth 8-3331] design AUDIO_FX_TOP has unconnected port led[11]
+WARNING: [Synth 8-3331] design AUDIO_FX_TOP has unconnected port led[10]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 600.766 ; gain = 393.762
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 601.293 ; gain = 393.621
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 600.766 ; gain = 393.762
+Finished Parallel Reinference  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 601.293 ; gain = 393.621
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -344,7 +277,6 @@ INFO: [Synth 8-3886] merging instance 'i_0/md1/memory_reg_mux_sel__4' (FD) to 'i
 INFO: [Synth 8-3886] merging instance 'i_0/md1/memory_reg_mux_sel__5' (FD) to 'i_0/md1/memory_reg_mux_sel__10'
 INFO: [Synth 8-3886] merging instance 'i_0/md1/memory_reg_mux_sel__6' (FD) to 'i_0/md1/memory_reg_mux_sel__10'
 INFO: [Synth 8-3886] merging instance 'i_0/md1/memory_reg_mux_sel__7' (FD) to 'i_0/md1/memory_reg_mux_sel__10'
-INFO: [Synth 8-3886] merging instance 'nolabel_line62/limit_reg[5]' (FD) to 'nolabel_line62/limit_reg[16]'
 INFO: [Synth 8-3886] merging instance 'i_0/md1/memory_reg_mux_sel__8' (FD) to 'i_0/md1/memory_reg_mux_sel__10'
 INFO: [Synth 8-3886] merging instance 'md1/i_reg_rep[0]' (FD) to 'md1/i_reg[0]'
 INFO: [Synth 8-3886] merging instance 'md1/i_reg_rep[1]' (FD) to 'md1/i_reg[1]'
@@ -379,7 +311,6 @@ WARNING: [Synth 8-3332] Sequential element (md1/memory_reg_mux_sel__6) is unused
 WARNING: [Synth 8-3332] Sequential element (md1/memory_reg_mux_sel__7) is unused and will be removed from module AUDIO_FX_TOP.
 WARNING: [Synth 8-3332] Sequential element (md1/memory_reg_mux_sel__8) is unused and will be removed from module AUDIO_FX_TOP.
 WARNING: [Synth 8-3332] Sequential element (md1/memory_reg_mux_sel__9) is unused and will be removed from module AUDIO_FX_TOP.
-WARNING: [Synth 8-3332] Sequential element (nolabel_line62/limit_reg[5]) is unused and will be removed from module AUDIO_FX_TOP.
 WARNING: [Synth 8-3332] Sequential element (u2/clk_counter_reg[1]) is unused and will be removed from module AUDIO_FX_TOP.
 WARNING: [Synth 8-3332] Sequential element (u2/clk_counter_reg[2]) is unused and will be removed from module AUDIO_FX_TOP.
 WARNING: [Synth 8-3332] Sequential element (u2/clk_counter_reg[3]) is unused and will be removed from module AUDIO_FX_TOP.
@@ -425,9 +356,9 @@ WARNING: [Synth 8-3332] Sequential element (md1/i_reg_rep[14]) is unused and wil
 WARNING: [Synth 8-3332] Sequential element (md1/i_reg_rep[15]) is unused and will be removed from module AUDIO_FX_TOP.
 WARNING: [Synth 8-3332] Sequential element (md1/i_reg[16]) is unused and will be removed from module AUDIO_FX_TOP.
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 600.766 ; gain = 393.762
+Finished Area Optimization : Time (s): cpu = 00:01:02 ; elapsed = 00:01:04 . Memory (MB): peak = 601.293 ; gain = 393.621
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 600.766 ; gain = 393.762
+Finished Parallel Area Optimization  : Time (s): cpu = 00:01:02 ; elapsed = 00:01:04 . Memory (MB): peak = 601.293 ; gain = 393.621
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -441,10 +372,10 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 600.766 ; gain = 393.762
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:12 ; elapsed = 00:01:15 . Memory (MB): peak = 601.293 ; gain = 393.621
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 600.766 ; gain = 393.762
+Finished Timing Optimization : Time (s): cpu = 00:01:12 ; elapsed = 00:01:16 . Memory (MB): peak = 601.293 ; gain = 393.621
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -496,16 +427,16 @@ INFO: [Synth 8-4480] The timing for the instance md1/memory_reg_3_9 (implemented
 INFO: [Synth 8-4480] The timing for the instance md1/memory_reg_3_10 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 INFO: [Synth 8-4480] The timing for the instance md1/memory_reg_3_11 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 600.766 ; gain = 393.762
+Finished Technology Mapping : Time (s): cpu = 00:01:12 ; elapsed = 00:01:16 . Memory (MB): peak = 612.605 ; gain = 404.934
 ---------------------------------------------------------------------------------
-Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 600.766 ; gain = 393.762
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:01:12 ; elapsed = 00:01:16 . Memory (MB): peak = 612.605 ; gain = 404.934
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 600.766 ; gain = 393.762
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:01:12 ; elapsed = 00:01:16 . Memory (MB): peak = 612.605 ; gain = 404.934
 ---------------------------------------------------------------------------------
 Start IO Insertion
 ---------------------------------------------------------------------------------
@@ -522,7 +453,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 600.766 ; gain = 393.762
+Finished IO Insertion : Time (s): cpu = 00:01:13 ; elapsed = 00:01:17 . Memory (MB): peak = 612.605 ; gain = 404.934
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -535,7 +466,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 600.766 ; gain = 393.762
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:13 ; elapsed = 00:01:17 . Memory (MB): peak = 612.605 ; gain = 404.934
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -547,25 +478,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 600.766 ; gain = 393.762
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:13 ; elapsed = 00:01:17 . Memory (MB): peak = 612.605 ; gain = 404.934
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 600.766 ; gain = 393.762
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:13 ; elapsed = 00:01:17 . Memory (MB): peak = 612.605 ; gain = 404.934
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 600.766 ; gain = 393.762
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:13 ; elapsed = 00:01:17 . Memory (MB): peak = 612.605 ; gain = 404.934
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 600.766 ; gain = 393.762
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:13 ; elapsed = 00:01:17 . Memory (MB): peak = 612.605 ; gain = 404.934
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -584,42 +515,43 @@ Report Cell Usage:
 |1     |BUFG       |     2|
 |2     |CARRY4     |    37|
 |3     |LUT1       |   109|
-|4     |LUT2       |    36|
-|5     |LUT3       |    52|
-|6     |LUT4       |    39|
-|7     |LUT5       |    36|
-|8     |LUT6       |    33|
+|4     |LUT2       |    43|
+|5     |LUT3       |    58|
+|6     |LUT4       |    40|
+|7     |LUT5       |    34|
+|8     |LUT6       |    54|
 |9     |RAMB36E1   |    24|
 |10    |RAMB36E1_1 |    24|
 |11    |XORCY      |     1|
-|12    |FDRE       |   156|
+|12    |FDRE       |   157|
 |13    |LDC        |    12|
-|14    |IBUF       |    14|
-|15    |OBUF       |     6|
+|14    |IBUF       |    16|
+|15    |OBUF       |    18|
+|16    |OBUFT      |     4|
 +------+-----------+------+
 
 Report Instance Areas: 
 +------+-----------------+-------------+------+
 |      |Instance         |Module       |Cells |
 +------+-----------------+-------------+------+
-|1     |top              |             |   581|
+|1     |top              |             |   633|
 |2     |  c1             |clk_twentyK  |    33|
 |3     |  c2             |clk_fiftyM   |     4|
 |4     |  md1            |mic_delay    |   228|
-|5     |  nolabel_line62 |melody       |   131|
-|6     |  nolabel_line64 |modeSelector |    38|
+|5     |  nolabel_line68 |melody       |   165|
+|6     |  nolabel_line70 |modeSelector |    38|
 |7     |  u1             |SPI          |    77|
 |8     |  u2             |DA2RefComp   |    48|
 +------+-----------------+-------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 600.766 ; gain = 393.762
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:13 ; elapsed = 00:01:17 . Memory (MB): peak = 612.605 ; gain = 404.934
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 77 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 600.766 ; gain = 110.883
-Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 600.766 ; gain = 393.762
+Synthesis finished with 0 errors, 0 critical warnings and 80 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:03 ; elapsed = 00:01:09 . Memory (MB): peak = 612.605 ; gain = 121.262
+Synthesis Optimization Complete : Time (s): cpu = 00:01:13 ; elapsed = 00:01:17 . Memory (MB): peak = 612.605 ; gain = 404.934
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 112 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Netlist 29-17] Analyzing 114 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 1 inverter(s) to 12 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
@@ -628,8 +560,8 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   LDC => LDCE: 12 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-92 Infos, 118 Warnings, 24 Critical Warnings and 0 Errors encountered.
+89 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 600.766 ; gain = 393.762
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 600.766 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Fri Mar 23 08:23:47 2018...
+synth_design: Time (s): cpu = 00:01:14 ; elapsed = 00:01:16 . Memory (MB): peak = 612.605 ; gain = 404.934
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 612.605 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 23 14:56:38 2018...
