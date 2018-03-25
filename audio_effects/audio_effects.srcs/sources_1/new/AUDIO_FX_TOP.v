@@ -1,26 +1,28 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// AY1718 Sem 1 EE2020 Project
+// AY1718 Sem 1 EE2026 Project
 // Project Name: Audio Effects
 // Module Name: AUDIO_FX_TOP
-// Team No.: 
-// Student Names: 
-// Matric No.:
-// Description: 
-// 
-// Work Distribution:
+// Team No.: Friday Group 13
+// Student Names: Saif Uddin Mahmud and Muhammad Harun Abdul Rashid 
+// Matric No.: A0170896N(Saif) and AXXXXXXX(Harun)
+// Description: {To Do} @Harun
+// Work Distribution: MIC_DELAY was done by Saif, MUSICAL INSTRUMENT was done by Harun
+//                    Rest of the Modules and system integration was done together, Saif doing the bulk of Coding
+//                    Documentation was done together, Harun taking charge. 
 //////////////////////////////////////////////////////////////////////////////////
 
 module AUDIO_FX_TOP(
-    input CLK,            // 100MHz FPGA clock
-    input [1:0] varDelay, //switches for mic_delay
-    input [9:3] sw,       //switches for melody mod; NOTE: Rename properly 
-    input [11:10] varPitch, 
-    input [2:0] mode,     //switches for selecting mode
-    output [15:0] led,    //usability enhancement (improvement 2)
-    input displayChange, 
-    output reg [6:0] seg, 
-    output reg [3:0] an, 
+    input CLK,              // 100MHz FPGA clock
+    input [1:0] varDelay,   //switches for variable mic_delay 
+    input [9:3] sw,         //switches playing Musical Instruments  
+    input [11:10] varPitch, //switches for changing scale of the keys
+    input [2:0] mode,       //switches for selecting MODE OF OPERATION
+    input displayChange,    //Switch used in Extra Feature #2
+
+    output [15:0] led,      //LED's used for usability (Extra Feature #2)
+    output reg [6:0] seg,   //7-segment display controls for Extra Feature #2
+    output reg [3:0] an,    //7-segment display enable pins for Extra Feature #2
         
     input  J_MIC3_Pin3,   // PmodMIC3 audio input data (serial)
     output J_MIC3_Pin1,   // PmodMIC3 chip select, 20kHz sampling clock
@@ -33,52 +35,60 @@ module AUDIO_FX_TOP(
     );
 
     //////////////////////////////////////////////////////////////////////////////////
-    // Clock Divider Module: Generate necessary clocks from 100MHz FPGA CLK
-    // Please create the clock divider module and instantiate it here.
-      wire clk_20k;
+    // Clock Divider Modules : Generate necessary clocks from 100MHz FPGA CLK
+      wire clk_20k;      
       wire clk_50M;
-      
       clk_twentyK c1 (CLK, clk_20k); 
       clk_fiftyM c2 (CLK, clk_50M); 
-  
+      
      //////////////////////////////////////////////////////////////////////////////////
      //SPI Module: Converting serial data into a 12-bit parallel register
-     //Do not change the codes in this area
        wire [11:0] MIC_in;
        SPI u1 (CLK, clk_20k, J_MIC3_Pin3, J_MIC3_Pin1, J_MIC3_Pin4, MIC_in);
    
     /////////////////////////////////////////////////////////////////////////////////////
     // Real-time Audio Effect Features
-    // Please create modules to implement different features and instantiate them here   
+      
+      //Wires needed for Audio and Display outputs stored here
+      //Ask if we should do registers instead? {To Do} @Harun
       wire [11:0] speaker_out;
-      wire [11:0] mic_delay_out; 
+      wire [11:0] mic_delay_out;    
       wire [11:0] melody_out;     
       wire [7:0] delay_disp; 
       wire [7:0] melody_disp; 
-      //Extra Feature #1 : Lights for switches 
+      
+      //NOTE: Activity 1 is taken care of by the modeSelector module  
+      modeSelector (MIC_in, mic_delay_out, melody_out, mode, speaker_out); 
+      
+      //A. MICROPHONE WITH (VARIABLE) DELAY by Saif Uddin Mahmud 
+      mic_delay md1 (clk_20k, varDelay, MIC_in, mic_delay_out, delay_disp); 
+      
+      //B. MUSICAL INSTRUMENT by Muhammad Harun Abdul Rashid
+      //{To Do} @Harun. Please remove the stuff below. Kept for your reference. 
+      //SW[2:0] = 3'b011
+      //SW[9:3] function as keys for Notes
+      //SW[12:10] can be used for higher notes (eg: C4 and above)
+      melody (CLK, sw, varPitch, melody_out, melody_disp); 
+      
+      //EXTRA FEATURE #1 : KILL SWITCH
+      // {To Do} @Saif @Harun
+      
+      //EXTRA FEATURE #2 : 7-segment Display and LED for convenience
+      //Switches set to 1 will light up for Convenience 
+      //If {displayChange} is off, it will show delay used in Module A
+      //If {displayChange} is on, it will show note currently being played
       assign led [9:3] = sw; 
       assign led [2:0] = mode; 
       assign led [15:14] = varDelay; 
       
       always @ (displayChange) begin
         if (displayChange == 0) begin an = 4'b1110; seg = delay_disp; end 
-        else begin an = 4'b0011; seg = melody_disp; end  
+        else begin an = 4'b0111; seg = melody_disp; end  
       end
-      
-      //MIC _ DELAY ACTIVITY
-      mic_delay md1 (clk_20k, varDelay, MIC_in, mic_delay_out, delay_disp);  //THIS IS FOR VARIABLE DELAY
-      //VARYING FREQUENCY MODULE 
-      melody (CLK, sw, varPitch, melody_out, melody_disp); 
-        
-      modeSelector (MIC_in, mic_delay_out, melody_out, mode, speaker_out); 
-
-    
-      //THIS IS FOR NO DELAY: assign speaker_out = MIC_in; 
+           
     /////////////////////////////////////////////////////////////////////////////////////
     //DAC Module: Digital-to-Analog Conversion
-    //Do not change the codes in this area        
       DA2RefComp u2(clk_50M, clk_20k, speaker_out, ,1'b0, J_DA2_Pin2, J_DA2_Pin3, J_DA2_Pin4, J_DA2_Pin1,);
-        
-  //////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////
 
 endmodule

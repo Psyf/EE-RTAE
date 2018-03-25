@@ -1,24 +1,11 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 16.03.2018 16:30:25
-// Design Name: 
+// Project Name: Audio Effects
 // Module Name: clk_fiftyM
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
 // Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+//          Takes in 100 MHz clock from the Basys3 FPGA 
+//          and generates a 50 MHz clock as output 
 //////////////////////////////////////////////////////////////////////////////////
-
 
 module clk_fiftyM(
     input CLK, 

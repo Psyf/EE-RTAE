@@ -37,7 +37,8 @@ module melody(
     always @ (posedge CLK) begin
         counter <= (counter > limit) ? 0 : counter + 1; 
         SPEAKER_OUT <= (counter == 0) ? ~SPEAKER_OUT : SPEAKER_OUT; 
-        //Also decide on improvement 
+        
+        // {To Do} @Harun, write to melody Disp for assigning the correct note on 7-seg
          if (keys[7]) begin limit <= 101238/(1+varPitch); end
          else if (keys[6]) begin limit <= 113636/(1+varPitch); end
          else if (keys[5]) begin limit <= 127551/(1+varPitch); end

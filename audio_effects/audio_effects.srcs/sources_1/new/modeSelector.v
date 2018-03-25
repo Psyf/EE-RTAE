@@ -1,24 +1,19 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 23.03.2018 08:15:37
-// Design Name: 
 // Module Name: modeSelector
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
+// Project Name: Audio Effects
 // Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+//       This MUX takes care of integration of all the new modules
+//       SW[2:0] used to change between modes
+//           > 3'000 for disabling headphones
+//           > 3'b001 for MIC with no delay
+//           > 3'b010 for MIC with delay            
+//           > 3'b011 for Musical Instrument 
+//           > 3'b1xx for Kill Switch (Extra Feature #1)
+//        
+//       The module checks the status of the switches and links the correct output to use 
+//       SPEAKER_OUT. This is done by using a if/else statments
 //////////////////////////////////////////////////////////////////////////////////
-
 
 module modeSelector(
     input [11:0] MIC_IN, 

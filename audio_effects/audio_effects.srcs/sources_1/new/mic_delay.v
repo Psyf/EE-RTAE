@@ -1,22 +1,21 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 18.03.2018 11:15:42
-// Design Name: 
+// Engineer: Saif Uddin Mahmud
+// Matric No. : A0170896N
+// Project Name: Audio Effects 
 // Module Name: mic_delay
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
 // Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+//    Set SW[2:0] = 3'b010 to use this mode 
+//    Value of SW[15:14] is amount of delay in seconds. For example, if it is  
+//    3'b001 you will get 1 second delay.
+//
+//    The system makes use of the concept of circular buffer and writes ahead of read. 
+//    Your delay value will determine how far away. The indices were calculated keeping the 
+//    20 KHz clock in mind. Using any other clock will need the values to be readjusted and 
+//    perhaps even use a different size of register for memory
+//
+//    As an added Feature, the module outputs the number of seconds of delay in the 7-segment 
+//    display. You have to ensure that {displayChange} switch is set correctly {To Do} @Saif
 //////////////////////////////////////////////////////////////////////////////////
 
 

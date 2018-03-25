@@ -1,24 +1,11 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 16.03.2018 15:59:18
-// Design Name: 
+////////////////////////////////////////////////////////////////////////////////// 
+// Project Name: Audio Effects
 // Module Name: clk_20k
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
 // Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+//          Takes in 100 MHz clock from the Basys3 FPGA 
+//          and generates a 20 KHz clock as output 
 //////////////////////////////////////////////////////////////////////////////////
-
 
 module clk_twentyK(
     input CLK, 
