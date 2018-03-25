@@ -2,13 +2,15 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Sun Mar 25 16:36:01 2018
-# Process ID: 948
-# Current directory: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8872 C:\Users\Psyf\Desktop\git\EE-RTAE\audio_effects\audio_effects.xpr
-# Log file: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/vivado.log
-# Journal file: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects\vivado.jou
+# Start of session at: Sun Mar 25 21:35:17 2018
+# Process ID: 4904
+# Current directory: C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent596 C:\Users\Lenovo\Desktop\clone\EE-RTAE\audio_effects\audio_effects.xpr
+# Log file: C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects/vivado.log
+# Journal file: C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.xpr
+open_project C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects/audio_effects.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
 update_compile_order -fileset sources_1

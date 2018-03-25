@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Sun Mar 25 17:39:11 2018">
+<application name="pa" timeStamp="Mon Mar 26 00:00:20 2018">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="e5b60e75fc104303bdcaf12858b87b03" type="ProjectID"/>
 <property name="ProjectIteration" value="53" type="ProjectIteration"/>
@@ -35,107 +35,86 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ViewTaskProjectManager" value="12" type="JavaHandler"/>
 </item>
 <item name="Gui Resources Info">
-<property name="AUDIO_FX_TOP.v, 122, 121, false, false, false, true, false" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 124, 255" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 140, 184" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 143, 90" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 148, 43" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 169, 171, false, false, false, true, false" value="2" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 170, 135" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 180, 122" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 184, 247" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 190, 95" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 2, 191" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 200, 109" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 204, 282" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 234, 172" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 237, 143" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 248, 184" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 254, 172" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 274, 180" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 276, 179" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 291, 291" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 306, 190" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 315, 263" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 318, 177" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 333, 271" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 337, 164" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 337, 201" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 344, 148" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 350, 169" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 370, 128" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 371, 150" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 389, 272" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 389, 98" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 404, 123" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 406, 236" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 417, 112" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 429, 115" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 430, 146" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 458, 115" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 459, 130" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 461, 51" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 463, 302" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 466, 178, false, false, false, true, false" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 468, 171" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 478, 178" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 482, 223" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 482, 227" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 538, 187" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 545, 210" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 548, 312" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 590, 222" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 67, 201" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 73, 183" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 88, 185" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 91, 135" value="1" type="GuiResourceData"/>
-<property name="AUDIO_FX_TOP.v, 97, 254" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, AUDIO_FX_TOP (AUDIO_FX_TOP.v" value="28" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager], 0, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.PAViews_CODE, Code" value="9" type="GuiResourceData"/>
-<property name="SPI.v, 310, 98" value="1" type="GuiResourceData"/>
-<property name="clk_20k.v, 123, 118" value="1" type="GuiResourceData"/>
-<property name="clk_20k.v, 141, 289" value="1" type="GuiResourceData"/>
-<property name="clk_20k.v, 143, 148" value="1" type="GuiResourceData"/>
-<property name="clk_20k.v, 155, 37" value="1" type="GuiResourceData"/>
-<property name="clk_20k.v, 160, 106" value="1" type="GuiResourceData"/>
-<property name="clk_20k.v, 162, 26" value="1" type="GuiResourceData"/>
-<property name="clk_20k.v, 169, 25" value="1" type="GuiResourceData"/>
-<property name="clk_20k.v, 173, 83" value="1" type="GuiResourceData"/>
-<property name="clk_20k.v, 176, 58" value="1" type="GuiResourceData"/>
-<property name="clk_20k.v, 178, 203" value="1" type="GuiResourceData"/>
-<property name="clk_20k.v, 189, 147" value="1" type="GuiResourceData"/>
-<property name="clk_20k.v, 194, 87" value="2" type="GuiResourceData"/>
-<property name="clk_20k.v, 200, 75" value="1" type="GuiResourceData"/>
-<property name="clk_20k.v, 203, 243" value="1" type="GuiResourceData"/>
-<property name="clk_20k.v, 290, 228" value="1" type="GuiResourceData"/>
-<property name="clk_20k.v, 97, 67" value="1" type="GuiResourceData"/>
-<property name="clk_20k.v, 98, 279" value="1" type="GuiResourceData"/>
-<property name="clk_fiftyM.v, 117, 79" value="1" type="GuiResourceData"/>
-<property name="clk_fiftyM.v, 156, 57" value="1" type="GuiResourceData"/>
-<property name="clk_fiftyM.v, 209, 86, false, false, false, true, false" value="1" type="GuiResourceData"/>
-<property name="clk_fiftyM.v, 363, 110" value="1" type="GuiResourceData"/>
-<property name="clk_fiftyM.v, 364, 115" value="1" type="GuiResourceData"/>
-<property name="clk_fiftyM.v, 53, 161" value="1" type="GuiResourceData"/>
-<property name="clk_fiftyM.v, 91, 95" value="1" type="GuiResourceData"/>
-<property name="melody.v, 298, 104" value="1" type="GuiResourceData"/>
-<property name="melody.v, 334, 111" value="1" type="GuiResourceData"/>
-<property name="melody.v, 414, 159" value="1" type="GuiResourceData"/>
-<property name="mic_delay.v, 128, 159" value="1" type="GuiResourceData"/>
-<property name="mic_delay.v, 155, 123" value="1" type="GuiResourceData"/>
-<property name="mic_delay.v, 468, 133" value="1" type="GuiResourceData"/>
-<property name="mic_delay.v, 474, 170" value="1" type="GuiResourceData"/>
-<property name="modeSelector.v, 121, 96" value="1" type="GuiResourceData"/>
-<property name="modeSelector.v, 137, 81" value="1" type="GuiResourceData"/>
-<property name="modeSelector.v, 170, 110" value="1" type="GuiResourceData"/>
-<property name="modeSelector.v, 170, 110, false, false, false, true, false" value="1" type="GuiResourceData"/>
-<property name="modeSelector.v, 247, 66" value="1" type="GuiResourceData"/>
-<property name="modeSelector.v, 392, 100" value="1" type="GuiResourceData"/>
+<property name="AUDIO_FX_TOP.v, 276, 348" value="1" type="GuiResourceData"/>
+<property name="AUDIO_FX_TOP.v, 305, 128" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, Basys3_Master.xdc], 12, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, Basys3_Master.xdc], 12, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 10, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 10, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, AUDIO_FX_TOP (AUDIO_FX_TOP.v" value="6" type="GuiResourceData"/>
+<property name="melody.v, 102, 502" value="1" type="GuiResourceData"/>
+<property name="melody.v, 110, 371" value="1" type="GuiResourceData"/>
+<property name="melody.v, 111, 391" value="1" type="GuiResourceData"/>
+<property name="melody.v, 111, 417" value="1" type="GuiResourceData"/>
+<property name="melody.v, 112, 379" value="1" type="GuiResourceData"/>
+<property name="melody.v, 112, 452" value="1" type="GuiResourceData"/>
+<property name="melody.v, 113, 435" value="1" type="GuiResourceData"/>
+<property name="melody.v, 115, 316" value="1" type="GuiResourceData"/>
+<property name="melody.v, 115, 316, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="melody.v, 115, 335, false, true, false, false, true" value="1" type="GuiResourceData"/>
+<property name="melody.v, 115, 336" value="1" type="GuiResourceData"/>
+<property name="melody.v, 116, 352" value="1" type="GuiResourceData"/>
+<property name="melody.v, 116, 352, false, true, false, false, true" value="1" type="GuiResourceData"/>
+<property name="melody.v, 117, 371" value="1" type="GuiResourceData"/>
+<property name="melody.v, 117, 371, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="melody.v, 117, 382" value="1" type="GuiResourceData"/>
+<property name="melody.v, 117, 382, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="melody.v, 118, 95" value="1" type="GuiResourceData"/>
+<property name="melody.v, 119, 405, false, true, false, false, false" value="1" type="GuiResourceData"/>
+<property name="melody.v, 119, 405, false, true, false, false, true" value="1" type="GuiResourceData"/>
+<property name="melody.v, 119, 414, false, true, false, false, false" value="1" type="GuiResourceData"/>
+<property name="melody.v, 119, 414, false, true, false, false, true" value="1" type="GuiResourceData"/>
+<property name="melody.v, 136, 451" value="1" type="GuiResourceData"/>
+<property name="melody.v, 137, 471" value="1" type="GuiResourceData"/>
+<property name="melody.v, 155, 303" value="1" type="GuiResourceData"/>
+<property name="melody.v, 159, 108" value="1" type="GuiResourceData"/>
+<property name="melody.v, 159, 108, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="melody.v, 165, 334" value="1" type="GuiResourceData"/>
+<property name="melody.v, 167, 353" value="1" type="GuiResourceData"/>
+<property name="melody.v, 169, 346" value="1" type="GuiResourceData"/>
+<property name="melody.v, 179, 364" value="1" type="GuiResourceData"/>
+<property name="melody.v, 183, 404" value="1" type="GuiResourceData"/>
+<property name="melody.v, 190, 352" value="1" type="GuiResourceData"/>
+<property name="melody.v, 193, 316" value="1" type="GuiResourceData"/>
+<property name="melody.v, 194, 346" value="1" type="GuiResourceData"/>
+<property name="melody.v, 201, 386" value="1" type="GuiResourceData"/>
+<property name="melody.v, 202, 412" value="1" type="GuiResourceData"/>
+<property name="melody.v, 205, 350" value="1" type="GuiResourceData"/>
+<property name="melody.v, 207, 448" value="1" type="GuiResourceData"/>
+<property name="melody.v, 215, 331" value="1" type="GuiResourceData"/>
+<property name="melody.v, 219, 344" value="1" type="GuiResourceData"/>
+<property name="melody.v, 219, 351" value="1" type="GuiResourceData"/>
+<property name="melody.v, 223, 448" value="1" type="GuiResourceData"/>
+<property name="melody.v, 225, 406" value="1" type="GuiResourceData"/>
+<property name="melody.v, 226, 351" value="1" type="GuiResourceData"/>
+<property name="melody.v, 229, 400" value="1" type="GuiResourceData"/>
+<property name="melody.v, 230, 420" value="1" type="GuiResourceData"/>
+<property name="melody.v, 231, 244" value="1" type="GuiResourceData"/>
+<property name="melody.v, 235, 329" value="1" type="GuiResourceData"/>
+<property name="melody.v, 235, 364" value="1" type="GuiResourceData"/>
+<property name="melody.v, 235, 383" value="1" type="GuiResourceData"/>
+<property name="melody.v, 269, 347" value="1" type="GuiResourceData"/>
+<property name="melody.v, 271, 159" value="1" type="GuiResourceData"/>
+<property name="melody.v, 271, 379" value="1" type="GuiResourceData"/>
+<property name="melody.v, 271, 438" value="1" type="GuiResourceData"/>
+<property name="melody.v, 273, 329" value="1" type="GuiResourceData"/>
+<property name="melody.v, 274, 399" value="1" type="GuiResourceData"/>
+<property name="melody.v, 274, 419" value="1" type="GuiResourceData"/>
+<property name="melody.v, 276, 365" value="1" type="GuiResourceData"/>
+<property name="melody.v, 386, 347" value="1" type="GuiResourceData"/>
+<property name="melody.v, 73, 144" value="1" type="GuiResourceData"/>
+<property name="mic_delay.v, 110, 251" value="1" type="GuiResourceData"/>
+<property name="mic_delay.v, 129, 97" value="1" type="GuiResourceData"/>
+<property name="mic_delay.v, 140, 239" value="1" type="GuiResourceData"/>
+<property name="mic_delay.v, 42, 95" value="1" type="GuiResourceData"/>
+<property name="mic_delay.v, 453, 92" value="1" type="GuiResourceData"/>
+<property name="mic_delay.v, 657, 145" value="1" type="GuiResourceData"/>
+<property name="mic_delay.v, 89, 123" value="1" type="GuiResourceData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="17" type="GuiMode"/>
+<property name="GuiMode" value="36" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="16" type="TclMode"/>
+<property name="TclMode" value="34" type="TclMode"/>
 </item>
 </section>
 </application>
