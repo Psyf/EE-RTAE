@@ -18,7 +18,6 @@ module AUDIO_FX_TOP(
     input [9:3] sw,         //switches playing Musical Instruments  
     input [11:10] varPitch, //switches for changing scale of the keys
     input [2:0] mode,       //switches for selecting MODE OF OPERATION
-    input displayChange,    //Switch used in Extra Feature #2
 
     output [15:0] led,      //LED's used for usability (Extra Feature #2)
     output reg [6:0] seg,   //7-segment display controls for Extra Feature #2
@@ -75,15 +74,14 @@ module AUDIO_FX_TOP(
       
       //EXTRA FEATURE #2 : 7-segment Display and LED for convenience
       //Switches set to 1 will light up for Convenience 
-      //If {displayChange} is off, it will show delay used in Module A
-      //If {displayChange} is on, it will show note currently being played
       assign led [9:3] = sw; 
       assign led [2:0] = mode; 
       assign led [15:14] = varDelay; 
       
-      always @ (displayChange) begin
-        if (displayChange == 0) begin an = 4'b1110; seg = delay_disp; end 
-        else begin an = 4'b0111; seg = melody_disp; end  
+      always @ (mode) begin
+        if (mode == 2'b10) begin an = 4'b1110; seg = delay_disp; end 
+        else if (mode == 2'b11) begin an = 4'b0111; seg = melody_disp; end  
+        else begin an = 4'b1111; end 
       end
            
     /////////////////////////////////////////////////////////////////////////////////////

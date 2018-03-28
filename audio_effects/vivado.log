@@ -2,25 +2,155 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Sun Mar 25 21:35:17 2018
-# Process ID: 4904
-# Current directory: C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent596 C:\Users\Lenovo\Desktop\clone\EE-RTAE\audio_effects\audio_effects.xpr
-# Log file: C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects/vivado.log
-# Journal file: C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects\vivado.jou
+# Start of session at: Wed Mar 28 14:46:14 2018
+# Process ID: 8664
+# Current directory: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15624 C:\Users\Psyf\Desktop\git\EE-RTAE\audio_effects\audio_effects.xpr
+# Log file: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/vivado.log
+# Journal file: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects/audio_effects.xpr
-INFO: [Project 1-313] Project file moved from 'C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects' since last save.
+open_project C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects' since last save.
 Scanning sources...
 Finished scanning sources
-WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects/audio_effects.ip_user_files', nor could it be found using path 'C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.ip_user_files'.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
-open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 825.922 ; gain = 153.523
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/EE2026_Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 758.965 ; gain = 115.074
 update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed Mar 28 14:50:09 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/synth_1/runme.log
+[Wed Mar 28 14:50:09 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.2
+  **** Build date : Jun  2 2016-16:57:03
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183756912A
+set_property PROGRAM.FILE {C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed Mar 28 14:56:57 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/synth_1/runme.log
+[Wed Mar 28 14:56:57 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed Mar 28 15:00:20 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/synth_1/runme.log
+[Wed Mar 28 15:00:20 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed Mar 28 15:03:57 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/synth_1/runme.log
+[Wed Mar 28 15:03:57 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed Mar 28 15:04:41 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/synth_1/runme.log
+[Wed Mar 28 15:04:41 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed Mar 28 15:13:08 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/synth_1/runme.log
+[Wed Mar 28 15:13:08 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed Mar 28 15:20:15 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/synth_1/runme.log
+[Wed Mar 28 15:20:15 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
 exit
-INFO: [Common 17-206] Exiting Vivado at Mon Mar 26 00:00:24 2018...
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 28 15:44:57 2018...
