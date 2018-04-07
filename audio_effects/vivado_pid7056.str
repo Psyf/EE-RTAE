@@ -1,0 +1,218 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 7056
+
+Current time: 	4/7/18 1:01:23 PM SGT
+Time zone: 	Singapore Time (Asia/Singapore)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	Lenovo
+User home directory: C:/Users/Lenovo
+User working directory: C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects
+User country: 	SG
+User language: 	en
+User locale: 	en_SG
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/Lenovo/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/Lenovo/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	211 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 517 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Lenovo\Desktop\clone\EE-RTAE\audio_effects\audio_effects.xpr. Version: Vivado v2016.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects/audio_effects.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [GUI Memory]: 41 MB (+40780kb) [00:00:05]
+// [Engine Memory]: 415 MB (+284023kb) [00:00:05]
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 476 MB (+41367kb) [00:00:06]
+// [GUI Memory]: 45 MB (+1526kb) [00:00:07]
+// [Engine Memory]: 508 MB (+9553kb) [00:00:07]
+// [GUI Memory]: 48 MB (+621kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 56 MB (+6233kb) [00:00:08]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 528 MB. GUI used memory: 33 MB. Current time: 4/7/18 1:01:24 PM SGT
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: audio_effects; location: C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 820.883 ; gain = 149.199 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 27 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AUDIO_FX_TOP (AUDIO_FX_TOP.v)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AUDIO_FX_TOP (AUDIO_FX_TOP.v), modeSelector - modeSelector (modeSelector.v)]", 6, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AUDIO_FX_TOP (AUDIO_FX_TOP.v), modeSelector - modeSelector (modeSelector.v)]", 6, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// [Engine Memory]: 546 MB (+12239kb) [00:00:41]
+// [GUI Memory]: 60 MB (+895kb) [00:03:03]
+// [GUI Memory]: 63 MB (+31kb) [00:04:43]
+// [GUI Memory]: 66 MB (+125kb) [00:07:31]
+// HMemoryUtils.trashcanNow. Engine heap size: 548 MB. GUI used memory: 35 MB. Current time: 4/7/18 1:10:24 PM SGT
+// [GUI Memory]: 71 MB (+1548kb) [00:13:53]
+// [GUI Memory]: 75 MB (+143kb) [00:30:04]
+// Elapsed time: 1847 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26); // x:Y (w:G, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 27, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// [GUI Memory]: 81 MB (+3210kb) [00:31:30]
+// Tcl Message: open_hw 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bL:g (cv:JFrame):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2016.2   **** Build date : Jun  2 2016-16:57:03     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183756872A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// [Engine Memory]: 630 MB (+60264kb) [00:31:34]
+dismissDialog("Auto Connect"); // bL:g (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 631 MB. GUI used memory: 39 MB. Current time: 4/7/18 1:32:50 PM SGT
+// Elapsed time: 40 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// [GUI Memory]: 86 MB (+448kb) [00:51:22]
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 39 MB. Current time: 4/7/18 2:02:51 PM SGT
+// Elapsed time: 1766 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 10 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 58 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, aW:ak)
+// 'A' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Elapsed time: 43 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ARCHIVE_PROJECT, "Archive Project..."); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ARCHIVE_PROJECT
+// a:x (cv:JFrame): Archive Project: addNotify
+// Elapsed time: 42 seconds
+setText(PAResourceAtoD.ArchiveProjectDialog_ARCHIVE_NAME, "audio_effects_"); // ao:JTextField (JPanel:JComponent, a:x)
+// Elapsed time: 27 seconds
+setText(PAResourceAtoD.ArchiveProjectDialog_ARCHIVE_NAME, "Friday_Saif_Uddin_Mahmud_A0170896N_A0164598L_"); // ao:JTextField (JPanel:JComponent, a:x)
+// Elapsed time: 11 seconds
+setText(PAResourceAtoD.ArchiveProjectDialog_ARCHIVE_NAME, "Friday_Saif_Uddin_Mahmud_A0170896N_A0164598L_Archive"); // ao:JTextField (JPanel:JComponent, a:x)
+// Elapsed time: 10 seconds
+selectCheckBox(PAResourceAtoD.ArchiveProjectDialog_INCLUDE_CONFIGURATION_SETTINGS, "Include configuration settings", true); // h:JCheckBox (JPanel:JComponent, a:x): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:x)
+// bL:g (cv:JFrame):  Archive Project : addNotify
+// Elapsed time: 12 seconds
+selectButton("PAResourceAtoD.ArchiveProjectDialog_WINDOWS_PLATFORM_HAS_PATH_LIMIT_256_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// Tcl Message: archive_project C:/Users/Lenovo/Desktop/clone/EE-RTAE/Friday_Saif_Uddin_Mahmud_A0170896N_A0164598L_Archive.xpr.zip -temp_dir C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects/.Xil/Vivado-7056-DESKTOP-RUPQMC3 -force -include_config_settings 
+// Tcl Message: INFO: [Coretcl 2-137] starting archive... INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects/.Xil/Vivado-7056-DESKTOP-RUPQMC3' for archiving project 
+// Tcl Message: INFO: [Coretcl 2-1211] Creating project copy for archival... INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path. Current project path is 'C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects/.Xil/Vivado-7056-DESKTOP-RUPQMC3/PrjAr/_X_'. 
+// Tcl Message: INFO: [Coretcl 2-1213] Including run results for 'synth_1' INFO: [Coretcl 2-1213] Including run results for 'impl_1' INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)... INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1' INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1' INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1' INFO: [Coretcl 2-1209] Adding archive summary file to the project... 
+// Tcl Message: ****** Webtalk v2016.2 (64-bit)   **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016   **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects/.Xil/Vivado-7056-DESKTOP-RUPQMC3/PrjAr/_X_/audio_effects.hw/webtalk/labtool_webtalk.tcl -notrace INFO: [Common 17-206] Exiting Webtalk at Sat Apr 07 14:06:59 2018... 
+// Tcl Message: INFO: [Coretcl 2-1214] Preparing project files for archive... 
+// Tcl Message: INFO: [Coretcl 2-1210] Compressing project files and data... INFO: [Coretcl 2-1215] Project archived (C:/Users/Lenovo/Desktop/clone/EE-RTAE/Friday_Saif_Uddin_Mahmud_A0170896N_A0164598L_Archive.xpr.zip) INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory. 
+// Tcl Message: archive_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 904.203 ; gain = 0.000 
+// 'a' command handler elapsed time: 117 seconds
+selectButton("PAResourceAtoD.ArchiveProjectDialog_PROJECT_HAS_BEEN_SUCCESSFULLY_ARCHIVED_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)

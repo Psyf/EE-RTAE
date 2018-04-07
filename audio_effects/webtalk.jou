@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sat Apr 07 14:06:59 2018
+# Process ID: 8424
+# Current directory: C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects
+# Command line: wbtcv.exe -mode batch -source C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects/.Xil/Vivado-7056-DESKTOP-RUPQMC3/PrjAr/_X_/audio_effects.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects/webtalk.log
+# Journal file: C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects/.Xil/Vivado-7056-DESKTOP-RUPQMC3/PrjAr/_X_/audio_effects.hw/webtalk/labtool_webtalk.tcl -notrace

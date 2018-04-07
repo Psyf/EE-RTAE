@@ -5,11 +5,9 @@
 // Module Name: AUDIO_FX_TOP
 // Team No.: Friday Group 13
 // Student Names: Saif Uddin Mahmud and Muhammad Harun Abdul Rashid 
-// Matric No.: A0170896N(Saif) and A0164598LHarun)
-// Description: {To Do} @Harun
+// Matric No.: A0170896N(Saif) and A0164598L(Harun)
 // Work Distribution: MIC_DELAY was done by Saif, MUSICAL INSTRUMENT was done by Harun
-//                    Rest of the Modules and system integration was done together, Saif doing the bulk of Coding
-//                    Documentation was done together, Harun taking charge. 
+//                    Rest of the Modules and system integration was done together 
 //////////////////////////////////////////////////////////////////////////////////
 
 module AUDIO_FX_TOP(
@@ -19,7 +17,7 @@ module AUDIO_FX_TOP(
     input [11:10] varPitch, //switches for changing scale of the keys
     input [2:0] mode,       //switches for selecting MODE OF OPERATION
 
-    output [15:0] led,      //LED's used for usability (Extra Feature #2)
+    output [15:0] led,      //LED's used for usability (Extra Feature)
     output reg [6:0] seg,   //7-segment display controls for Extra Feature #2
     output reg [3:0] an,    //7-segment display enable pins for Extra Feature #2
         
@@ -37,8 +35,10 @@ module AUDIO_FX_TOP(
     // Clock Divider Modules : Generate necessary clocks from 100MHz FPGA CLK
       wire clk_20k;      
       wire clk_50M;
+      wire clk_4; 
       clk_twentyK c1 (CLK, clk_20k); 
       clk_fiftyM c2 (CLK, clk_50M); 
+      fourHz_clock c3 (CLK, clk_4); 
       
      //////////////////////////////////////////////////////////////////////////////////
      //SPI Module: Converting serial data into a 12-bit parallel register
@@ -49,28 +49,25 @@ module AUDIO_FX_TOP(
     // Real-time Audio Effect Features
       
       //Wires needed for Audio and Display outputs stored here
-      //Ask if we should do registers instead? {To Do} @Harun
       wire [11:0] speaker_out;
       wire [11:0] mic_delay_out;    
-      wire [11:0] melody_out;     
+      wire [11:0] melody_out;
+      wire [11:0] morse_out;      
       wire [7:0] delay_disp; 
-      wire [7:0] melody_disp; 
-      
+      wire [7:0] melody_disp;
+       
       //NOTE: Activity 1 is taken care of by the modeSelector module  
-      modeSelector (MIC_in, mic_delay_out, melody_out, mode, speaker_out); 
+      modeSelector (MIC_in, mic_delay_out, melody_out, morse_out, mode, speaker_out); 
       
       //A. MICROPHONE WITH (VARIABLE) DELAY by Saif Uddin Mahmud 
       mic_delay md1 (clk_20k, varDelay, MIC_in, mic_delay_out, delay_disp); 
       
       //B. MUSICAL INSTRUMENT by Muhammad Harun Abdul Rashid
-      //{To Do} @Harun. Please remove the stuff below. Kept for your reference. 
-      //SW[2:0] = 3'b011
-      //SW[9:3] function as keys for Notes
-      //SW[12:10] can be used for higher notes (eg: C4 and above)
+     
       melody (CLK, sw, varPitch, melody_out, melody_disp); 
       
       //EXTRA FEATURE #1 : KILL SWITCH
-      // {To Do} @Saif @Harun
+      morse_code(clk_4, mode[2], morse_out, led[13]); 
       
       //EXTRA FEATURE #2 : 7-segment Display and LED for convenience
       //Switches set to 1 will light up for Convenience 

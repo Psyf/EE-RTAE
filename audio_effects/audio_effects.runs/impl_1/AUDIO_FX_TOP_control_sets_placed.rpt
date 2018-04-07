@@ -1,8 +1,8 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date         : Wed Mar 28 15:21:42 2018
-| Host         : DESKTOP-H9DK5VV running 64-bit major release  (build 9200)
+| Date         : Sat Apr 07 12:37:20 2018
+| Host         : DESKTOP-RUPQMC3 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file AUDIO_FX_TOP_control_sets_placed.rpt
 | Design       : AUDIO_FX_TOP
 | Device       : xc7a35t
@@ -22,8 +22,8 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Number of unique control sets                            |    19 |
-| Unused register locations in slices containing registers |    90 |
+| Number of unique control sets                            |    20 |
+| Unused register locations in slices containing registers |    92 |
 +----------------------------------------------------------+-------+
 
 
@@ -33,40 +33,41 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              54 |           38 |
+| No           | No                    | No                     |              95 |           48 |
 | No           | No                    | Yes                    |               0 |            0 |
-| No           | Yes                   | No                     |             104 |           33 |
-| Yes          | No                    | No                     |              24 |           13 |
+| No           | Yes                   | No                     |              93 |           32 |
+| Yes          | No                    | No                     |              24 |           17 |
 | Yes          | No                    | Yes                    |               0 |            0 |
-| Yes          | Yes                   | No                     |               8 |            3 |
+| Yes          | Yes                   | No                     |               8 |            2 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
 3. Detailed Control Set Information
 -----------------------------------
 
-+-------------------------------------+-----------------------------+---------------------------------------+------------------+----------------+
-|             Clock Signal            |        Enable Signal        |            Set/Reset Signal           | Slice Load Count | Bel Load Count |
-+-------------------------------------+-----------------------------+---------------------------------------+------------------+----------------+
-|  c2/I17                             |                             |                                       |                1 |              1 |
-|  CLK_IBUF_BUFG                      |                             | nolabel_line70/melody_disp[4]_i_1_n_0 |                1 |              1 |
-|  CLK_IBUF_BUFG                      |                             | nolabel_line70/melody_disp[5]_i_1_n_0 |                1 |              1 |
-|  CLK_IBUF_BUFG                      |                             | nolabel_line70/melody_disp[6]_i_1_n_0 |                1 |              1 |
-|  u2/CLK                             |                             |                                       |                1 |              2 |
-|  u2/CLK                             | u2/shiftCounter[3]_i_1_n_0  | u2/temp1[15]_i_1_n_0                  |                1 |              4 |
-|  u2/CLK                             | u2/temp2                    | u2/temp1[15]_i_1_n_0                  |                2 |              4 |
-|  seg_reg[6]_i_2_n_0                 |                             |                                       |                2 |              7 |
-|  CLK_IBUF_BUFG                      |                             |                                       |                7 |             10 |
-|  CLK_IBUF_BUFG                      |                             | c1/COUNT[11]_i_1_n_0                  |                3 |             11 |
-|  u2/CLK                             | u2/temp2                    |                                       |                4 |             12 |
-| ~u1/J_MIC3_Pin4_OBUF                |                             |                                       |                8 |             12 |
-|  nolabel_line60/nolabel_line60/_n_0 |                             | nolabel_line60/speaker_out_n_0        |                4 |             12 |
-|  CLK_IBUF_BUFG                      |                             | J_MIC3_Pin1_OBUF_BUFG                 |                3 |             12 |
-|  CLK_IBUF_BUFG                      | nolabel_line70/SPEAKER_OUT0 |                                       |                9 |             12 |
-|  CLK_IBUF_BUFG                      |                             | nolabel_line70/limit[16]_i_1_n_0      |                7 |             17 |
-|  CLK_IBUF_BUFG                      |                             | nolabel_line70/clear                  |                5 |             18 |
-|  J_MIC3_Pin1_OBUF_BUFG              |                             |                                       |               19 |             22 |
-|  J_MIC3_Pin1_OBUF_BUFG              |                             | md1/i[1]_i_1_n_0                      |                8 |             31 |
-+-------------------------------------+-----------------------------+---------------------------------------+------------------+----------------+
++------------------------+-----------------------------+---------------------------------------+------------------+----------------+
+|      Clock Signal      |        Enable Signal        |            Set/Reset Signal           | Slice Load Count | Bel Load Count |
++------------------------+-----------------------------+---------------------------------------+------------------+----------------+
+|  c2/I18                |                             |                                       |                1 |              1 |
+|  c3/CLK                |                             | nolabel_line70/led0__0                |                1 |              1 |
+|  CLK_IBUF_BUFG         |                             | nolabel_line67/melody_disp[4]_i_1_n_0 |                1 |              1 |
+|  CLK_IBUF_BUFG         |                             | nolabel_line67/melody_disp[5]_i_1_n_0 |                1 |              1 |
+|  CLK_IBUF_BUFG         |                             | nolabel_line67/melody_disp[6]_i_1_n_0 |                1 |              1 |
+|  u2/J_DA2_Pin4_OBUF    |                             |                                       |                1 |              2 |
+|  u2/J_DA2_Pin4_OBUF    | u2/shiftCounter[3]_i_1_n_0  | u2/temp1[15]_i_1_n_0                  |                1 |              4 |
+|  u2/J_DA2_Pin4_OBUF    | u2/temp2                    | u2/temp1[15]_i_1_n_0                  |                1 |              4 |
+|  seg_reg[6]_i_2_n_0    |                             |                                       |                3 |              7 |
+|  CLK_IBUF_BUFG         |                             | c1/COUNT[11]_i_1_n_0                  |                3 |             11 |
+|  u2/J_DA2_Pin4_OBUF    | u2/temp2                    |                                       |                5 |             12 |
+| ~u1/J_MIC3_Pin4_OBUF   |                             |                                       |                9 |             12 |
+|  CLK_IBUF_BUFG         |                             | J_MIC3_Pin1_OBUF_BUFG                 |                3 |             12 |
+|  CLK_IBUF_BUFG         | nolabel_line67/SPEAKER_OUT0 |                                       |               12 |             12 |
+|  c3/CLK                |                             |                                       |                4 |             16 |
+|  CLK_IBUF_BUFG         |                             | nolabel_line67/limit[16]_i_1_n_0      |                9 |             17 |
+|  CLK_IBUF_BUFG         |                             | nolabel_line67/clear                  |                5 |             18 |
+|  J_MIC3_Pin1_OBUF_BUFG |                             |                                       |               16 |             22 |
+|  J_MIC3_Pin1_OBUF_BUFG |                             | md1/i[1]_i_1_n_0                      |                8 |             31 |
+|  CLK_IBUF_BUFG         |                             |                                       |               14 |             35 |
++------------------------+-----------------------------+---------------------------------------+------------------+----------------+
 
 

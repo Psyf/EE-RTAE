@@ -19,15 +19,17 @@ module modeSelector(
     input [11:0] MIC_IN, 
     input [11:0] mic_delay_out,
     input [11:0] melody_out, 
+    input [11:0] morse_out, 
     input [2:0] mode, 
     output reg [11:0] speaker_out
     );
     
     always @ (mode) begin
-        if (mode == 0) speaker_out = 12'b0; 
+        if (mode[2] == 1'b1) speaker_out = morse_out; 
+        else if (mode == 0) speaker_out = 12'b0; 
         else if (mode == 1) speaker_out = MIC_IN;  
         else if (mode == 2) speaker_out = mic_delay_out; 
-        else if (mode == 3) speaker_out = melody_out; 
+        else if (mode == 3) speaker_out = melody_out;  
     end 
     
 endmodule

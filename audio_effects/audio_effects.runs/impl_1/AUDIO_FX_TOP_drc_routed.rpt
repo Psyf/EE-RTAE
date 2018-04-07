@@ -1,8 +1,8 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date         : Wed Mar 28 15:22:06 2018
-| Host         : DESKTOP-H9DK5VV running 64-bit major release  (build 9200)
+| Date         : Sat Apr 07 12:37:50 2018
+| Host         : DESKTOP-RUPQMC3 running 64-bit major release  (build 9200)
 | Command      : report_drc -file AUDIO_FX_TOP_drc_routed.rpt -pb AUDIO_FX_TOP_drc_routed.pb
 | Design       : AUDIO_FX_TOP
 | Device       : xc7a35tcpg236-1
@@ -23,7 +23,7 @@ Table of Contents
       Design limits: <entire design considered>
            Ruledeck: default
              Max violations: <unlimited>
-             Violations found: 3
+             Violations found: 2
 
 2. REPORT DETAILS
 -----------------
@@ -41,11 +41,6 @@ Refer to the device configuration user guide for more information.
 Related violations: <none>
 
 PDRC-153#1 Warning
-Gated clock check  
-Net nolabel_line60/nolabel_line60/_n_0 is a gated clock net sourced by a combinational pin nolabel_line60/nolabel_line60//O, cell nolabel_line60/nolabel_line60/. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
-Related violations: <none>
-
-PDRC-153#2 Warning
 Gated clock check  
 Net seg_reg[6]_i_2_n_0 is a gated clock net sourced by a combinational pin seg_reg[6]_i_2/O, cell seg_reg[6]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>

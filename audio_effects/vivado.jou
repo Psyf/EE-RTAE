@@ -2,68 +2,28 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Wed Mar 28 14:46:14 2018
-# Process ID: 8664
-# Current directory: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15624 C:\Users\Psyf\Desktop\git\EE-RTAE\audio_effects\audio_effects.xpr
-# Log file: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/vivado.log
-# Journal file: C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects\vivado.jou
+# Start of session at: Sat Apr 07 13:01:11 2018
+# Process ID: 7056
+# Current directory: C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11664 C:\Users\Lenovo\Desktop\clone\EE-RTAE\audio_effects\audio_effects.xpr
+# Log file: C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects/vivado.log
+# Journal file: C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.xpr
+open_project C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects/audio_effects.xpr
 update_compile_order -fileset sources_1
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream
-wait_on_run impl_1
 open_hw
 connect_hw_server
 open_hw_target
-set_property PROGRAM.FILE {C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.bit} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.bit} [lindex [get_hw_devices] 0]
 current_hw_device [lindex [get_hw_devices] 0]
 refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
 set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
-set_property PROGRAM.FILE {C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.bit} [lindex [get_hw_devices] 0]
-program_hw_devices [lindex [get_hw_devices] 0]
-refresh_hw_device [lindex [get_hw_devices] 0]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream
-wait_on_run impl_1
-set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
-set_property PROGRAM.FILE {C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.bit} [lindex [get_hw_devices] 0]
-program_hw_devices [lindex [get_hw_devices] 0]
-refresh_hw_device [lindex [get_hw_devices] 0]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream
-wait_on_run impl_1
-set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
-set_property PROGRAM.FILE {C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.bit} [lindex [get_hw_devices] 0]
-program_hw_devices [lindex [get_hw_devices] 0]
-refresh_hw_device [lindex [get_hw_devices] 0]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream
-wait_on_run impl_1
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream
-wait_on_run impl_1
-set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
-set_property PROGRAM.FILE {C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.bit} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.bit} [lindex [get_hw_devices] 0]
 program_hw_devices [lindex [get_hw_devices] 0]
 refresh_hw_device [lindex [get_hw_devices] 0]
 set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
-set_property PROGRAM.FILE {C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.bit} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.bit} [lindex [get_hw_devices] 0]
 program_hw_devices [lindex [get_hw_devices] 0]
 refresh_hw_device [lindex [get_hw_devices] 0]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream
-wait_on_run impl_1
-set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
-set_property PROGRAM.FILE {C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.bit} [lindex [get_hw_devices] 0]
-program_hw_devices [lindex [get_hw_devices] 0]
-refresh_hw_device [lindex [get_hw_devices] 0]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream
-wait_on_run impl_1
-set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
-set_property PROGRAM.FILE {C:/Users/Psyf/Desktop/git/EE-RTAE/audio_effects/audio_effects.runs/impl_1/AUDIO_FX_TOP.bit} [lindex [get_hw_devices] 0]
-program_hw_devices [lindex [get_hw_devices] 0]
-refresh_hw_device [lindex [get_hw_devices] 0]
+archive_project C:/Users/Lenovo/Desktop/clone/EE-RTAE/Friday_Saif_Uddin_Mahmud_A0170896N_A0164598L_Archive.xpr.zip -temp_dir C:/Users/Lenovo/Desktop/clone/EE-RTAE/audio_effects/.Xil/Vivado-7056-DESKTOP-RUPQMC3 -force -include_config_settings
